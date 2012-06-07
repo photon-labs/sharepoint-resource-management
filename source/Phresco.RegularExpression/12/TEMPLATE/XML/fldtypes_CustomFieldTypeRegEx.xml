@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FieldTypes>
+	<FieldType>
+		<Field Name="TypeName">CustomFieldTypeRegEx</Field>
+		<Field Name="ParentType">Text</Field>
+		<Field Name="TypeDisplayName">Single line of text (with RegEx validation)</Field>
+		<Field Name="TypeShortDescription">Single line of text (with RegEx validation)</Field>
+		<Field Name="UserCreatable">TRUE</Field>
+		<Field Name="Sortable">TRUE</Field>
+		<Field Name="AllowBaseTypeRendering">TRUE</Field>
+		<Field Name="Filterable">TRUE</Field>
+    <Field Name="FieldTypeClass">Phresco.SharePoint.CFT_RegEx.CustomFieldTypeRegEx, Phresco.SharePoint.CFT_RegEx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a880ba84c9912337</Field>
+		<Field Name="FieldEditorUserControl">/_controltemplates/CustomFieldTypeRegExFieldEditor.ascx</Field>
+		<PropertySchema>
+			<Fields>
+				<Field Hidden="TRUE" Name="propRegularExpression" DisplayName="Regular Expression Property" Type="Text">
+					<Default></Default>
+				</Field>
+				<Field Hidden="TRUE" Name="propErrorMessage" DisplayName="Error Message" Type="Text">
+					<Default></Default>
+				</Field>
+			</Fields>
+			<Fields></Fields>
+		</PropertySchema>
+	</FieldType>
+</FieldTypes>

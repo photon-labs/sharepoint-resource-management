@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="8d03dce7-bb29-4217-9075-55140c52b03d"
+          Title="Fusion Charts SharePoint"
+          Description="Provides Chart functionality for SharePoint. Based on Fusion Charts Free."
+          Version="12.0.0.0"
+          Hidden="FALSE"
+          Scope="Site"
+          DefaultResourceFile="core"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>
+    <ElementFile Location="ChartFromXml.webpart" />
+    <ElementFile Location="ChartFromList.webpart" />
+  </ElementManifests>
+</Feature>

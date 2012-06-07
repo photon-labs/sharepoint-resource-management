@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Phresco\PhrescoSharepointProject\ResourceManagement\source\Phresco.UnitTesting\bin\Debug\Phresco.UnitTesting.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2011-12-07" time="17:40:26">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.3625" os-version="Microsoft Windows NT 5.2.3790 Service Pack 2" platform="Win32NT" cwd="C:\Phresco\PhrescoSharepointProject\ResourceManagement\source\Phresco.UnitTesting\bin\Debug" machine-name="FRAMEWORK-WIN3" user="Photon" user-domain="FRAMEWORK-WIN3" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Phresco\PhrescoSharepointProject\ResourceManagement\source\Phresco.UnitTesting\bin\Debug\Phresco.UnitTesting.dll" executed="True" result="Success" success="True" time="0.016" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Phresco" executed="True" result="Success" success="True" time="0.000" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="UnitTesting" executed="True" result="Success" success="True" time="0.000" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="ItemEventReceiver" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="Phresco.UnitTesting.ItemEventReceiver.ItemEventReceiverTests" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<environment>
+     <Server><!-- Sharepoint URL Configurations(Index 0-3) -->          
+  <!--index 0--><protocol>http</protocol>
+  <!--index 1--><host>framework-win2</host>
+  <!--index 2--><port>8000</port>
+  <!--index 3--><context>/Pages/Default.aspx</context>
+     </Server>
+  <!--index 1--><Browser>iexplore</Browser><!-- Sharepoint WaitForPageToLoad Configurations(Index 9-11) -->
+  <!--index 2--><waitforpagetoload>10000</waitforpagetoload>
+  <!--index 3--><errorcomment>Selenium Server Should be Start</errorcomment>
+        <!--Sharepoint ChartList_Create_Delete Configurations -->
+        <!--ChartListPrepTest Configurations(Index 12-32)-->
+  <!--index 4--><viewall_sitecontents>//tr[@id='zz2_QuickLaunchMenun0']/td/table/tbody/tr/td/a</viewall_sitecontents>
+  <!--index 5--><vmallocation>(//a[contains(text(),'VM_Allocation')])[2]</vmallocation>
+  <!--index 6--><vmallocation_new_button>//a[@id='zz12_NewMenu']</vmallocation_new_button>
+  <!--index 7--><vmallocation_new_name_id>//input[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl00_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</vmallocation_new_name_id>
+  <!--index 8--><vmallocation_new_name_value>Phresco_ChartList</vmallocation_new_name_value>
+  <!--index 9--><vmallocation_new_systemname_id>//input[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl01_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</vmallocation_new_systemname_id>
+  <!--index 10--><vmallocation_new_systemname_value>Dell</vmallocation_new_systemname_value>
+  <!--index 11--><vmallocation_new_operatingsystem_id>//select[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl02_ctl00_ctl00_ctl04_ctl00_DropDownChoice']</vmallocation_new_operatingsystem_id>
+  <!--index 12--><vmallocation_new_operatingsystem_value>Windows XP</vmallocation_new_operatingsystem_value>
+  <!--index 13--><vmallocation_new_systemconfig_id>//textarea[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl03_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</vmallocation_new_systemconfig_id>
+  <!--index 14--><vmallocation_new_systemconfig_value>4 GB RAM,120 GB HardDisk</vmallocation_new_systemconfig_value>
+  <!--index 15--><vmallocation_new_hardwaretype_id>//select[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl05_ctl00_ctl00_ctl04_ctl00_DropDownChoice']</vmallocation_new_hardwaretype_id>
+  <!--index 16--><vmallocation_new_hardwaretype_value>Desktop</vmallocation_new_hardwaretype_value>
+  <!--index 17--><vmallocation_new_serialnumber_id>//input[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl06_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</vmallocation_new_serialnumber_id>
+  <!--index 18--><vmallocation_new_serialnumber_value>2468</vmallocation_new_serialnumber_value>
+  <!--index 19--><vmallocation_new_owner_id>//input[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl13_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</vmallocation_new_owner_id>
+  <!--index 20--><vmallocation_new_owner_value>Photon Infotech</vmallocation_new_owner_value>
+  <!--index 21--><vmallocation_new_status_id>//select[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl18_ctl00_ctl00_ctl04_ctl00_DropDownChoice']</vmallocation_new_status_id>
+  <!--index 22--><vmallocation_new_status_value>Active</vmallocation_new_status_value>
+  <!--index 23--><vmallocation_new_ok_id>//input[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_toolBarTbl_RightRptControls_ctl00_ctl00_diidIOSaveItem']</vmallocation_new_ok_id>
+  <!--index 24--><chartlistpreptest_screenshot_path>../../../target/nunit-report/screenshots/ChartList_Create_Delete.Chart_Create_Delete.ChartListPrepTest.png</chartlistpreptest_screenshot_path>
+          <!--RegularExpressionTest Configurations(Index 33-35)-->
+  <!--index 25--><vmallocation_new_privateip_id>//input[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl20_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</vmallocation_new_privateip_id>
+  <!--index 26--><vmallocation_new_privateip_value>127.2.2.120</vmallocation_new_privateip_value>
+  <!--index 27--><RegularExpressionTest_screenshot_path>../../../target/nunit-report/screenshots/ChartList_Create_Delete.Chart_Create_Delete.RegularExpressionTest.png</RegularExpressionTest_screenshot_path>
+          <!--InvalidRegularExpressionTest Configurations(Index 36-38)-->
+  <!--index 28--><vmallocation_new_privateip_invalidvalue> 270.2.3.400</vmallocation_new_privateip_invalidvalue>
+  <!--index 29--><vmallocation_new_privateip_invalid_testwaiting>Please Enter a valid IP</vmallocation_new_privateip_invalid_testwaiting>
+  <!--index 30--><InvalidRegularExpressionTest_Screenshot_path>../../../target/nunit-report/screenshots/ChartList_Create_Delete.Chart_Create_Delete.InvalidRegularExpressionTest.png</InvalidRegularExpressionTest_Screenshot_path>
+  <!-- List_Creation_Definition_Demo Configurations-->
+          <!--ListCreationTest Configurations(Index 46-55) -->
+  <!--index 31--><listcreation_viewallsitecontents_link>//tr[@id='zz2_QuickLaunchMenun0']/td/table/tbody/tr/td/a</listcreation_viewallsitecontents_link>
+  <!--index 32--><listcreation_Create_link>//a[@id='ctl00_PlaceHolderMain_ToolBar_RptControls_diidIONewList']</listcreation_Create_link>
+  <!--index 33--><listcreation_phrescolistdef_link>//a[contains(text(),'Phresco List Definition')]</listcreation_phrescolistdef_link>
+  <!--index 34--><listcreation_listname_id>//input[@id='onetidListTitle']</listcreation_listname_id>
+  <!--index 35--><listcreation_listname_value>Phresco_List</listcreation_listname_value>
+  <!--index 36--><listcreation_listdescription_id>//textarea[@id='onetidListDescription']</listcreation_listdescription_id>
+  <!--index 37--><listcreation_listdescription_value>This is Phresco_List description</listcreation_listdescription_value>
+  <!--index 38--><listcreation_createbutton_id>//input[@id='ctl00_PlaceHolderMain_onetidCreateList']</listcreation_createbutton_id>
+  <!--index 39--><listcreationtest_screenshot_link>../../../target/nunit-report/screenshots/List_Creation_Definition_Demo.List_Creation_definition.ListCreationTest.png</listcreationtest_screenshot_link>
+          <!--ListDefinitionTest Configurations(Index 56-79) -->
+  <!--index 40--><listdefinition_list_link_value>//tr[@id='zz2_QuickLaunchMenun0']/td/table/tbody/tr/td/a</listdefinition_list_link_value>
+  <!--index 41--><listdefinition_sample_link>(//a[contains(text(),'sample')])[3]</listdefinition_sample_link>
+  <!--index 42--><listdefinition_sample_new_id>//a[@id='zz12_NewMenu']</listdefinition_sample_new_id>
+  <!--index 43--><listdefinition_sample_new_title_id>//input[@id='ctl00_m_g_405e05f7_2e99_4ad4_b063_273f99a41a41_ctl00_ctl04_ctl00_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</listdefinition_sample_new_title_id>
+  <!--index 44--><listdefinition_sample_new_title_value>Sharepoint List Definition</listdefinition_sample_new_title_value>
+  <!--index 45--><listdefinition_sample_new_singlelinetext_id>//input[@id='ctl00_m_g_405e05f7_2e99_4ad4_b063_273f99a41a41_ctl00_ctl04_ctl01_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</listdefinition_sample_new_singlelinetext_id>
+  <!--index 46--><listdefinition_sample_new_singlelinetext_value>Sharepoint List Definition</listdefinition_sample_new_singlelinetext_value>
+  <!--index 47--><listdefinition_sample_new_multichoice_id>//input[@id='ctl00_m_g_405e05f7_2e99_4ad4_b063_273f99a41a41_ctl00_ctl04_ctl02_ctl00_ctl00_ctl04_ctl00_ctl01']</listdefinition_sample_new_multichoice_id>
+  <!--index 48--><listdefinition_sample_new_multichoiceedit_id>//select[@id='ctl00_m_g_405e05f7_2e99_4ad4_b063_273f99a41a41_ctl00_ctl04_ctl03_ctl00_ctl00_ctl04_ctl00_DropDownChoice']</listdefinition_sample_new_multichoiceedit_id>
+  <!--index 49--><listdefinition_sample_new_multichoiceedit_value>41-60</listdefinition_sample_new_multichoiceedit_value>
+  <!--index 50--><listdefinition_sample_new_radiobutton_id>//input[@id='ctl00_m_g_405e05f7_2e99_4ad4_b063_273f99a41a41_ctl00_ctl04_ctl04_ctl00_ctl00_ctl04_ctl00_ctl01']</listdefinition_sample_new_radiobutton_id>
+  <!--index 51--><listdefinition_sample_new_number0to99_id>//input[@id='ctl00_m_g_405e05f7_2e99_4ad4_b063_273f99a41a41_ctl00_ctl04_ctl05_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</listdefinition_sample_new_number0to99_id>
+  <!--index 52--><listdefinition_sample_new_number0to99_value>79</listdefinition_sample_new_number0to99_value>
+  <!--index 53--><listdefinition_sample_new_number0to10_id>//input[@id='ctl00_m_g_405e05f7_2e99_4ad4_b063_273f99a41a41_ctl00_ctl04_ctl06_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</listdefinition_sample_new_number0to10_id>
+  <!--index 54--><listdefinition_sample_new_number0to10_value>4</listdefinition_sample_new_number0to10_value>
+  <!--index 55--><listdefinition_sample_new_currency_turkish_id>//input[@id='ctl00_m_g_405e05f7_2e99_4ad4_b063_273f99a41a41_ctl00_ctl04_ctl07_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</listdefinition_sample_new_currency_turkish_id>
+  <!--index 56--><listdefinition_sample_new_currency_turkish_value>102</listdefinition_sample_new_currency_turkish_value>
+  <!--index 57--><listdefinition_sample_new_currency_italian_id>//input[@id='ctl00_m_g_405e05f7_2e99_4ad4_b063_273f99a41a41_ctl00_ctl04_ctl08_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</listdefinition_sample_new_currency_italian_id>
+  <!--index 58--><listdefinition_sample_new_currency_italian_value>203</listdefinition_sample_new_currency_italian_value>
+  <!--index 59--><listdefinition_sample_new_date_id>//input[@id='ctl00_m_g_405e05f7_2e99_4ad4_b063_273f99a41a41_ctl00_ctl04_ctl09_ctl00_ctl00_ctl04_ctl00_ctl00_DateTimeField_DateTimeFieldDate']</listdefinition_sample_new_date_id>
+  <!--index 60--><listdefinition_sample_new_date_value>1/1/2012</listdefinition_sample_new_date_value>
+  <!--index 61--><listdefinition_sample_new_click_ok_id>//input[@id='ctl00_m_g_405e05f7_2e99_4ad4_b063_273f99a41a41_ctl00_toolBarTbl_RightRptControls_ctl00_ctl00_diidIOSaveItem']</listdefinition_sample_new_click_ok_id>
+  <!--index 62--><listdefinition_sceenshot_path>../../../target/nunit-report/screenshots/List_Creation_Definition_Demo.List_Creation_definition.ListDefinitionTest.png</listdefinition_sceenshot_path>
+  <!--index 63--><clean_northcheckbox_path>//input[@id='ctl00_m_g_405e05f7_2e99_4ad4_b063_273f99a41a41_ctl00_ctl04_ctl02_ctl00_ctl00_ctl04_ctl00_ctl00']</clean_northcheckbox_path>
+  <!-- Default_Phresco_MasterPage Configurations  -->
+          <!--DefaultMasterPageTest Configurations(Index 80-92)-->
+  <!--index 64--><defaultmasterpage_masterpage_link>//a[contains(text(),'Masterpage')]</defaultmasterpage_masterpage_link>
+  <!--index 65--><defaultmasterpage_siteactionsmenu_id>//a[contains(text(),'Site Actions')]</defaultmasterpage_siteactionsmenu_id>
+  <!--index 66--><defaultmasterpage_sitesettings_click>//td[@id='zz11_MenuItem_Settings']/label/div</defaultmasterpage_sitesettings_click>
+  <!--index 67--><defaultmasterpage_sitesettings_masterpage_link>//a[contains(text(),'Master page')]</defaultmasterpage_sitesettings_masterpage_link>
+  <!--index 68--><defaultmasterpage_sitesettings_masterpage_chromeradiobutton>//input[@id='ctl00_PlaceHolderMain_ctl00_ctl00_selectChromeRadioButton']</defaultmasterpage_sitesettings_masterpage_chromeradiobutton>
+  <!--index 69--><defaultmasterpage_sitesettings_masterpage_sitemasterpagedropdownlist_id>//select[@id='ctl00_PlaceHolderMain_ctl00_ctl00_masterPageSelectionControl_ctl00_SiteMasterPageDropDownList']</defaultmasterpage_sitesettings_masterpage_sitemasterpagedropdownlist_id>
+  <!--index 70--><defaultmasterpage_sitesettings_masterpage_sitemasterpagedropdownlist_value>default.master</defaultmasterpage_sitesettings_masterpage_sitemasterpagedropdownlist_value>
+  <!--index 71--><defaultmasterpage_sitesettings_masterpage_MasterPageRadioButton>//input[@id='ctl00_PlaceHolderMain_ctl01_ctl00_selectSystemMasterPageRadioButton']</defaultmasterpage_sitesettings_masterpage_MasterPageRadioButton>
+  <!--index 72--><defaultmasterpage_sitesettings_masterpage_systemmasterpagedropdownlist_id>//select[@id='ctl00_PlaceHolderMain_ctl01_ctl00_systemMasterPageSelectionControl_ctl00_SystemMasterPageDropDownList']</defaultmasterpage_sitesettings_masterpage_systemmasterpagedropdownlist_id>
+  <!--index 73--><defaultmasterpage_sitesettings_masterpage_systemmasterpagedropdownlist_value>default.master</defaultmasterpage_sitesettings_masterpage_systemmasterpagedropdownlist_value>
+  <!--index 74--><defaultmasterpage_sitesettings_masterpage_savesettings_id>//input[@id='ctl00_PlaceHolderMain_ctl03_RptControls_ButtonSaveSettings']</defaultmasterpage_sitesettings_masterpage_savesettings_id>
+  <!--index 75--><defaultmasterpage_sceenshot_path>../../../target/nunit-report/screenshots/DefaultMasterPage.Default_Phresco_MasterPage.DefaultMasterPageTest.png</defaultmasterpage_sceenshot_path>
+         <!-- PhrescoMasterPageTest Configurations(Index 93-97)-->
+  <!--index 76--><phrescomasterpage_sitemasterpagedropdownlist_value>Phresco.master</phrescomasterpage_sitemasterpagedropdownlist_value>
+  <!--index 77--><phrescomasterpage_systemmasterpagedropdownlist_value>Phresco.master</phrescomasterpage_systemmasterpagedropdownlist_value>
+  <!--index 78--><phrescomasterpage_sceenshot_path>../../../target/nunit-report/screenshots/DefaultMasterPage.Default_Phresco_MasterPage.PhrescoMasterPageTest.png</phrescomasterpage_sceenshot_path>
+  <!--  SearchText_Home_List Configurations  -->
+         <!-- SearchInHomePageTest Configurations(Index 98-109)   -->
+  <!--index 79--><searchinhomepage_allsites_id>//select[@id='ctl00_PlaceHolderSearchArea_ctl01_SBScopesDDL']</searchinhomepage_allsites_id>
+  <!--index 80--><searchinhomepage_allsites_value>All Sites</searchinhomepage_allsites_value>
+  <!--index 81--><searchinhomepage_searchtextbox_id>//input[@id='ctl00_PlaceHolderSearchArea_ctl01_S3031AEBB_InputKeywords']</searchinhomepage_searchtextbox_id>
+  <!--index 82--><searchinhomepage_searchtextbox_value>sample</searchinhomepage_searchtextbox_value>
+  <!--index 83--><searchinhomepage_searchimage_id>//a[@id='ctl00_PlaceHolderSearchArea_ctl01_S3031AEBB_go']/img</searchinhomepage_searchimage_id>
+  <!--index 84--><searchinhomepage_selectlist_id>//td[@id='zz1_TopNavigationMenun0']/table/tbody/tr/td/a</searchinhomepage_selectlist_id>
+  <!--index 85--><searchinhomepage_singlesite_id>//select[@id='ctl00_PlaceHolderSearchArea_ctl01_SBScopesDDL']</searchinhomepage_singlesite_id>
+  <!--index 86--><searchinhomepage_singlesite_value>This Site: Phresco</searchinhomepage_singlesite_value>
+  <!--index 87--><searchinhomepage_singlesite_searchtextbox_id>//input[@id='ctl00_PlaceHolderSearchArea_ctl01_S3031AEBB_InputKeywords']</searchinhomepage_singlesite_searchtextbox_id>
+  <!--index 88--><searchinhomepage_singlesite_searchtextbox_value>Phresco_List</searchinhomepage_singlesite_searchtextbox_value>
+  <!--index 89--><searchinhomepage_screenshot_path>../../../target/nunit-report/screenshots/searchText.SearchText_Home_List.SearchInHomePageTest.png</searchinhomepage_screenshot_path>
+         <!-- SearchTextInListTest Configurations(Index 109-116)   -->
+  <!--index 90--><searchtextinlist_list_link_id>//a[contains(text(),'Lists')]</searchtextinlist_list_link_id>
+  <!--index 91--><searchtextinlist_list_selectvmallocation_link>(//a[contains(@href, '/Lists/VM_Allocation/AllItems.aspx')])[3]</searchtextinlist_list_selectvmallocation_link>
+  <!--index 92--><searchtextinlist_list_selectvmallocation_selectlist_id>//select[@id='ctl00_PlaceHolderSearchArea_ctl01_SBScopesDDL']</searchtextinlist_list_selectvmallocation_selectlist_id>
+  <!--index 93--><searchtextinlist_list_selectvmallocation_selectlist_value>This List: VM_Allocation</searchtextinlist_list_selectvmallocation_selectlist_value>
+  <!--index 94--><searchtextinlist_list_selectvmallocation_inputkeyword_id>//input[@id='ctl00_PlaceHolderSearchArea_ctl01_S3031AEBB_InputKeywords']</searchtextinlist_list_selectvmallocation_inputkeyword_id>
+  <!--index 95--><searchtextinlist_list_selectvmallocation_inputkeyword_value>Laptop</searchtextinlist_list_selectvmallocation_inputkeyword_value>
+  <!--index 96--><searchtextinlist_Go> //a[@id='ctl00_PlaceHolderSearchArea_ctl01_S3031AEBB_go']/img</searchtextinlist_Go>
+  <!--index 97--><searchtextinlist_sceenshot_path>../../../target/nunit-report/screenshots/searchText.SearchText_Home_List.SearchTextInListTest.png</searchtextinlist_sceenshot_path>
+  <!--index 98--><create_screenshots_folder>../../../target/nunit-report/screenshots</create_screenshots_folder>
+
+  </environment>

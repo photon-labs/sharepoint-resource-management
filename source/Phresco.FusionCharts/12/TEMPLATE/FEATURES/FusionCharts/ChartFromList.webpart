@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Phresco.FusionCharts.ChartFromList, FusionChartsSharePoint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5b2d6e7dda754add" />
+      <importErrorMessage>Cannot import ChartFromList Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Chart From List</property>
+        <property name="Description" type="string">Displays a chart from data directly taken from a SharePoint list</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

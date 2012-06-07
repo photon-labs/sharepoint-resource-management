@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:annotation>
+        <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+            <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+                <ConnectionRefs />
+                <Connections />
+                <TableRefs>
+                    <DesignTableRef Name="List">
+                        <ColumnRefs />
+                        <SourceRefs />
+                    </DesignTableRef>
+                    <DesignTableRef Name="Fields">
+                        <ColumnRefs />
+                        <SourceRefs />
+                    </DesignTableRef>
+                    <DesignTableRef Name="Choices">
+                        <ColumnRefs />
+                        <SourceRefs />
+                    </DesignTableRef>
+                    <DesignTableRef Name="Choice">
+                        <ColumnRefs />
+                        <SourceRefs />
+                    </DesignTableRef>
+                </TableRefs>
+                <Tables />
+                <RelationRefs>
+                    <RelationRef Name="List_Fields" />
+                    <RelationRef Name="Fields_Choices" />
+                    <RelationRef Name="Choices_Choice" />
+                </RelationRefs>
+                <SourceRefs />
+                <Sources />
+            </DataSource>
+        </xs:appinfo>
+    </xs:annotation>
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="NewDataSet" msprop:Generator_DataSetName="NewDataSet">
+        <xs:complexType>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="List" msprop:Generator_UserTableName="List" msprop:Generator_RowDeletedName="ListRowDeleted" msprop:Generator_TableClassName="ListDataTable" msprop:Generator_RowChangedName="ListRowChanged" msprop:Generator_RowClassName="ListRow" msprop:Generator_RowChangingName="ListRowChanging" msprop:Generator_RowEvArgName="ListRowChangeEvent" msprop:Generator_RowEvHandlerName="ListRowChangeEventHandler" msprop:Generator_TablePropName="List" msprop:Generator_TableVarName="tableList" msprop:Generator_RowDeletingName="ListRowDeleting">
+                    <xs:complexType>
+                        <xs:attribute name="name" msprop:Generator_UserColumnName="name" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInTable="nameColumn" type="xs:string" />
+                        <xs:attribute name="description" msprop:Generator_UserColumnName="description" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInTable="descriptionColumn" type="xs:string" />
+                        <xs:attribute name="List_Id" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="List_Id" msprop:Generator_ColumnPropNameInRow="List_Id" msprop:Generator_ColumnVarNameInTable="columnList_Id" msprop:Generator_ColumnPropNameInTable="List_IdColumn" type="xs:int" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Fields" msprop:Generator_UserTableName="Fields" msprop:Generator_RowDeletedName="FieldsRowDeleted" msprop:Generator_TableClassName="FieldsDataTable" msprop:Generator_RowChangedName="FieldsRowChanged" msprop:Generator_RowClassName="FieldsRow" msprop:Generator_RowChangingName="FieldsRowChanging" msprop:Generator_RowEvArgName="FieldsRowChangeEvent" msprop:Generator_RowEvHandlerName="FieldsRowChangeEventHandler" msprop:Generator_TablePropName="Fields" msprop:Generator_TableVarName="tableFields" msprop:Generator_RowDeletingName="FieldsRowDeleting">
+                    <xs:complexType>
+                        <xs:attribute name="name" msprop:Generator_UserColumnName="name" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInTable="nameColumn" type="xs:string" />
+                        <xs:attribute name="datatype" msprop:Generator_UserColumnName="datatype" msprop:Generator_ColumnPropNameInRow="datatype" msprop:Generator_ColumnVarNameInTable="columndatatype" msprop:Generator_ColumnPropNameInTable="datatypeColumn" type="xs:string" />
+                        <xs:attribute name="defaultvalue" msprop:Generator_UserColumnName="defaultvalue" msprop:Generator_ColumnPropNameInRow="defaultvalue" msprop:Generator_ColumnVarNameInTable="columndefaultvalue" msprop:Generator_ColumnPropNameInTable="defaultvalueColumn" type="xs:string" />
+                        <xs:attribute name="displaychoicesusing" msprop:Generator_UserColumnName="displaychoicesusing" msprop:Generator_ColumnPropNameInRow="displaychoicesusing" msprop:Generator_ColumnVarNameInTable="columndisplaychoicesusing" msprop:Generator_ColumnPropNameInTable="displaychoicesusingColumn" type="xs:string" />
+                        <xs:attribute name="required" msprop:Generator_UserColumnName="required" msprop:Generator_ColumnPropNameInRow="required" msprop:Generator_ColumnVarNameInTable="columnrequired" msprop:Generator_ColumnPropNameInTable="requiredColumn" type="xs:string" />
+                        <xs:attribute name="lookuplist" msprop:Generator_UserColumnName="lookuplist" msprop:Generator_ColumnPropNameInRow="lookuplist" msprop:Generator_ColumnVarNameInTable="columnlookuplist" msprop:Generator_ColumnPropNameInTable="lookuplistColumn" type="xs:string" />
+                        <xs:attribute name="lookupfield" msprop:Generator_UserColumnName="lookupfield" msprop:Generator_ColumnPropNameInRow="lookupfield" msprop:Generator_ColumnVarNameInTable="columnlookupfield" msprop:Generator_ColumnPropNameInTable="lookupfieldColumn" type="xs:string" />
+                        <xs:attribute name="textformat" msprop:Generator_UserColumnName="textformat" msprop:Generator_ColumnPropNameInRow="textformat" msprop:Generator_ColumnVarNameInTable="columntextformat" msprop:Generator_ColumnPropNameInTable="textformatColumn" type="xs:string" />
+                        <xs:attribute name="Fields_Id" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Fields_Id" msprop:Generator_ColumnPropNameInRow="Fields_Id" msprop:Generator_ColumnVarNameInTable="columnFields_Id" msprop:Generator_ColumnPropNameInTable="Fields_IdColumn" type="xs:int" use="required" />
+                        <xs:attribute name="List_Id" msprop:Generator_UserColumnName="List_Id" msprop:Generator_ColumnPropNameInRow="List_Id" msprop:Generator_ColumnVarNameInTable="columnList_Id" msprop:Generator_ColumnPropNameInTable="List_IdColumn" type="xs:int" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Choices" msprop:Generator_UserTableName="Choices" msprop:Generator_RowDeletedName="ChoicesRowDeleted" msprop:Generator_TableClassName="ChoicesDataTable" msprop:Generator_RowChangedName="ChoicesRowChanged" msprop:Generator_RowClassName="ChoicesRow" msprop:Generator_RowChangingName="ChoicesRowChanging" msprop:Generator_RowEvArgName="ChoicesRowChangeEvent" msprop:Generator_RowEvHandlerName="ChoicesRowChangeEventHandler" msprop:Generator_TablePropName="Choices" msprop:Generator_TableVarName="tableChoices" msprop:Generator_RowDeletingName="ChoicesRowDeleting">
+                    <xs:complexType>
+                        <xs:attribute name="Choices_Id" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Choices_Id" msprop:Generator_ColumnPropNameInRow="Choices_Id" msprop:Generator_ColumnVarNameInTable="columnChoices_Id" msprop:Generator_ColumnPropNameInTable="Choices_IdColumn" type="xs:int" use="required" />
+                        <xs:attribute name="Fields_Id" msprop:Generator_UserColumnName="Fields_Id" msprop:Generator_ColumnPropNameInRow="Fields_Id" msprop:Generator_ColumnVarNameInTable="columnFields_Id" msprop:Generator_ColumnPropNameInTable="Fields_IdColumn" type="xs:int" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Choice" nillable="true" msprop:Generator_UserTableName="Choice" msprop:Generator_RowDeletedName="ChoiceRowDeleted" msprop:Generator_TableClassName="ChoiceDataTable" msprop:Generator_RowChangedName="ChoiceRowChanged" msprop:Generator_RowClassName="ChoiceRow" msprop:Generator_RowChangingName="ChoiceRowChanging" msprop:Generator_RowEvArgName="ChoiceRowChangeEvent" msprop:Generator_RowEvHandlerName="ChoiceRowChangeEventHandler" msprop:Generator_TablePropName="Choice" msprop:Generator_TableVarName="tableChoice" msprop:Generator_RowDeletingName="ChoiceRowDeleting">
+                    <xs:complexType>
+                        <xs:simpleContent msprop:Generator_UserColumnName="Choice_Text" msprop:Generator_ColumnPropNameInRow="Choice_Text" msprop:Generator_ColumnVarNameInTable="columnChoice_Text" msprop:Generator_ColumnPropNameInTable="Choice_TextColumn" msdata:ColumnName="Choice_Text" msdata:Ordinal="1">
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="selected" msprop:Generator_UserColumnName="selected" msprop:Generator_ColumnPropNameInRow="selected" msprop:Generator_ColumnVarNameInTable="columnselected" msprop:Generator_ColumnPropNameInTable="selectedColumn" type="xs:string" />
+                                <xs:attribute name="Choices_Id" msprop:Generator_UserColumnName="Choices_Id" msprop:Generator_ColumnPropNameInRow="Choices_Id" msprop:Generator_ColumnVarNameInTable="columnChoices_Id" msprop:Generator_ColumnPropNameInTable="Choices_IdColumn" type="xs:int" />
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//List" />
+            <xs:field xpath="@List_Id" />
+        </xs:unique>
+        <xs:unique name="Fields_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//Fields" />
+            <xs:field xpath="@Fields_Id" />
+        </xs:unique>
+        <xs:unique name="Choices_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+            <xs:selector xpath=".//Choices" />
+            <xs:field xpath="@Choices_Id" />
+        </xs:unique>
+        <xs:keyref name="Choices_Choice" refer="Choices_Constraint1" msprop:rel_Generator_UserRelationName="Choices_Choice" msprop:rel_Generator_RelationVarName="relationChoices_Choice" msprop:rel_Generator_UserChildTable="Choice" msprop:rel_Generator_UserParentTable="Choices" msprop:rel_Generator_ParentPropName="ChoicesRow" msprop:rel_Generator_ChildPropName="GetChoiceRows">
+            <xs:selector xpath=".//Choice" />
+            <xs:field xpath="@Choices_Id" />
+        </xs:keyref>
+        <xs:keyref name="Fields_Choices" refer="Fields_Constraint1" msprop:rel_Generator_UserRelationName="Fields_Choices" msprop:rel_Generator_RelationVarName="relationFields_Choices" msprop:rel_Generator_UserChildTable="Choices" msprop:rel_Generator_UserParentTable="Fields" msprop:rel_Generator_ParentPropName="FieldsRow" msprop:rel_Generator_ChildPropName="GetChoicesRows">
+            <xs:selector xpath=".//Choices" />
+            <xs:field xpath="@Fields_Id" />
+        </xs:keyref>
+        <xs:keyref name="List_Fields" refer="Constraint1" msprop:rel_Generator_UserRelationName="List_Fields" msprop:rel_Generator_RelationVarName="relationList_Fields" msprop:rel_Generator_UserChildTable="Fields" msprop:rel_Generator_UserParentTable="List" msprop:rel_Generator_ParentPropName="ListRow" msprop:rel_Generator_ChildPropName="GetFieldsRows">
+            <xs:selector xpath=".//Fields" />
+            <xs:field xpath="@List_Id" />
+        </xs:keyref>
+    </xs:element>
+</xs:schema>

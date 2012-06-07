@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="PhrescoMasterPage" Url="_catalogs/masterpage">
+    <File Url="Phresco.master" Type="GhostableInLibrary">
+      <Property Name="ContentType" Value="$Resources:cmscore,contenttype_masterpage_name;" />
+    </File>
+
+  </Module>
+</Elements>

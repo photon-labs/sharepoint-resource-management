@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c06f5a89-0269-4205-a418-bc1322787ea4" name="Photon@FRAMEWORK-WIN2 2012-01-25 13:05:06" runUser="FRAMEWORK-WIN2\Photon" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="8a07c41f-43be-49d4-8cad-4d660b4e3614">
+    <Deployment runDeploymentRoot="E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\TestResults\Photon_FRAMEWORK-WIN2 2012-01-25 13_05_06">
+      <DeploymentItem filename="C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0\framework\nunit.framework.dll" />
+      <DeploymentItem filename="E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\bin\Debug\nunit_sample.dll" />
+      <DeploymentItem filename="E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\bin\Debug\nunit.core.dll" />
+      <DeploymentItem filename="E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\bin\Debug\Phresco.EventReceiver.dll" />
+      <DeploymentItem filename="E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\bin\Debug\Phresco.ItemEventReceiver.dll" />
+    </Deployment>
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2012-01-25T13:05:06.5247500+05:30" queuing="2012-01-25T13:05:21.6497500+05:30" start="2012-01-25T13:05:22.1497500+05:30" finish="2012-01-25T13:05:25.4466250+05:30" />
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="e:\27001\phresco-framework\workspace\projects\phr_sp\test\unit\alltest\bin\release\alltest.dll" id="e01263b5-e531-05fb-95bf-375851adc171">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="02aa260a-c47f-4f84-b49c-a30b4cb3695b" />
+      <TestMethod codeBase="E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\bin\Release\AllTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Phresco.UnitTesting.RegularExpressionTest, AllTest" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e01263b5-e531-05fb-95bf-375851adc171" executionId="02aa260a-c47f-4f84-b49c-a30b4cb3695b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="02aa260a-c47f-4f84-b49c-a30b4cb3695b" testId="e01263b5-e531-05fb-95bf-375851adc171" testName="TestMethod1" computerName="FRAMEWORK-WIN2" duration="00:00:00.0107051" startTime="2012-01-25T13:05:22.6810000+05:30" endTime="2012-01-25T13:05:23.7903750+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,10 @@
+E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\bin\Release\AllTest.dll
+E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\bin\Release\AllTest.pdb
+E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\bin\Release\nunit.framework.dll
+E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\bin\Release\Microsoft.SharePoint.Search.dll
+E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\bin\Release\Microsoft.Office.Server.Search.dll
+E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\bin\Release\nunit.framework.xml
+E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\bin\Release\Microsoft.SharePoint.Search.xml
+E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\obj\Release\ResolveAssemblyReference.cache
+E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\obj\Release\AllTest.dll
+E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\obj\Release\AllTest.pdb

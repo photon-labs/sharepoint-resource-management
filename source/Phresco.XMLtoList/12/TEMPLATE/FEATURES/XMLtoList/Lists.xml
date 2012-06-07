@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Lists xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <List name="Resource_Allocation">
+        <Fields name="System Name" datatype="Single line of text" required="yes"></Fields>
+        <Fields name="Operating System" datatype="Choice" defaultValue="Windows XP" displaychoicesusing="dropdownmenu" required="yes">
+            <Choices>
+                <Choice>Windows XP</Choice>
+                <Choice>Windows 7</Choice>
+                <Choice>Windows Server 2003</Choice>
+            </Choices>
+        </Fields>
+        <Fields name="System Configuration" datatype="Multiple lines of text" required="yes"></Fields>
+        <Fields name ="Software Installed" datatype="Multiple lines of text"></Fields>
+        <Fields name="Hardware type" datatype="Choice" defaultValue="Desktop" displaychoicesusing="dropdownmenu" required="yes">
+            <Choices>
+                <Choice>Desktop</Choice>
+                <Choice>Laptop</Choice>
+                <Choice>VM Ware</Choice>
+                <Choice>iPad</Choice>
+            </Choices>
+        </Fields>
+        <Fields name="Serial Number" datatype="Single line of text" required="yes"></Fields>
+        <Fields name="Private IP" datatype="Single line of text"></Fields>
+        <Fields name="Public IP" datatype="Single line of text"></Fields>
+        <Fields name="Project Name" datatype="Single line of text"></Fields>
+        <Fields name="Project Code" datatype="Single line of text"></Fields>
+        <Fields name="Division Name" datatype="Single line of text"></Fields>
+        <Fields name="Location" datatype="Choice" defaultValue="Chennai" displaychoicesusing="dropdownmenu" required="no">
+            <Choices>
+                <Choice>Chennai</Choice>
+                <Choice>Bengaluru</Choice>
+            </Choices>
+        </Fields>
+        <Fields name="Floor" datatype="Single line of text"></Fields>
+        <Fields name="Seat No" datatype="Single line of text"></Fields>
+        <Fields name="Owner" datatype="Person or group" required="yes"></Fields>
+        <Fields name="Current User" datatype="Person or group"></Fields>
+        <Fields name="Duration" datatype="Single line of text"></Fields>
+        <Fields name="Purpose" datatype="Multiple lines of text"></Fields>
+        <Fields name="Private IP" datatype="Single line of text"></Fields>
+        <Fields name="Status" datatype="Choice" defaultValue="Assigned" displaychoicesusing="dropdownmenu" required="no">
+            <Choices>
+                <Choice>Assigned</Choice>
+                <Choice>In Use</Choice>
+                <Choice>Released</Choice>
+                <Choice>Not In Use</Choice>
+            </Choices>
+        </Fields>
+        <Fields name="Comments" datatype="Multiple lines of text"></Fields>
+    </List>
+</Lists>

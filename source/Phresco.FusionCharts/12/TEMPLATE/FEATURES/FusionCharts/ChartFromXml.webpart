@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Phresco.FusionCharts.ChartFromXml, FusionChartsSharePoint, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5b2d6e7dda754add" />
+      <importErrorMessage>Cannot import Phresco.FusionCharts.ChartFromXml Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Chart From Xml</property>
+        <property name="Description" type="string">Displays a chart from an XML input</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

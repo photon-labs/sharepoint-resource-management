@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.photon.phresco</groupId>
+    <artifactId>PHR_SharePointResourceManagement</artifactId>
+    <name>PHR_SharePointResourceManagement</name>
+    <version>1.0.0</version>
+    <build>
+        <sourceDirectory>source</sourceDirectory>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.sonar-plugins.dotnet</groupId>
+                <artifactId>maven-dotnet-plugin</artifactId>
+                <version>0.1</version>
+                <extensions>true</extensions>
+            </plugin>
+            <plugin>
+                <groupId>com.photon.phresco.plugins</groupId>
+                <artifactId>sharepoint-maven-plugin</artifactId>
+                <version>1.1.17000</version>
+                <extensions>true</extensions>
+            </plugin>
+        </plugins>
+    </build>
+    <properties>
+        <visual.studio.solution xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">source/Phresco.Sharepoint.sln</visual.studio.solution>
+        <visual.test.project.pattern xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">test/functional/*.Tests;*Test</visual.test.project.pattern>
+        <dotnet.tool.version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.5</dotnet.tool.version>
+        <sonar.language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">cs</sonar.language>
+    </properties>
+</project>

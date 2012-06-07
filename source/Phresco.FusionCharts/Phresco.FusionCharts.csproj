@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DF58EBAA-A3F2-4CEE-AFCB-BA113495C7F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Phresco.FusionCharts</RootNamespace>
+    <AssemblyName>Phresco.FusionCharts</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Phresco.FusionCharts.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebPartCode\FusionCharts\ChartFromList.cs" />
+    <Compile Include="WebPartCode\FusionCharts\ChartFromXml.cs" />
+    <Compile Include="WebPartCode\FusionCharts\ListToXmlConverter.cs" />
+    <Compile Include="WebPartCode\FusionCharts\Plot.cs" />
+    <Compile Include="WebPartCode\FusionCharts\Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="12\TEMPLATE\FEATURES\FusionCharts\ChartFromList.webpart" />
+    <None Include="12\TEMPLATE\FEATURES\FusionCharts\ChartFromXml.webpart" />
+    <None Include="Phresco.FusionCharts.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\DataSampleCandleStick1.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\DataSampleCombi1.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\DataSampleGantt1.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\DataSampleMS1.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\DataSampleSS1.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\DataSampleStacked1.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\elements.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_Area2D.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_Bar2D.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_Candlestick.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_Column2D.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_Column3D.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_Doughnut2D.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_Funnel.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_Gantt.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_Line.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_MSArea2D.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_MSBar2D.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_MSColumn2D.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_MSColumn2DLineDY.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_MSColumn3D.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_MSColumn3DLineDY.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_MSLine.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_Pie2D.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_Pie3D.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_StackedArea2D.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_StackedBar2D.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_StackedColumn2D.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FCF_StackedColumn3D.swf" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\feature.xml" />
+    <Content Include="12\TEMPLATE\FEATURES\FusionCharts\FusionCharts.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

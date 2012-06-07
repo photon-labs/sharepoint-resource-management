@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\bin\Release\AllTest.dll" total="5" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-01-25" time="13:11:24">
+  <environment nunit-version="2.5.9.10348" clr-version="2.0.50727.3082" os-version="Microsoft Windows NT 5.2.3790 Service Pack 2" platform="Win32NT" cwd="E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\bin\Release" machine-name="FRAMEWORK-WIN2" user="Photon" user-domain="FRAMEWORK-WIN2" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\bin\Release\AllTest.dll" executed="True" result="Success" success="True" time="0.250" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Phresco" executed="True" result="Success" success="True" time="0.234" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="UnitTesting" executed="True" result="Success" success="True" time="0.234" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="FusionChartsTest" executed="True" result="Success" success="True" time="0.078" asserts="0">
+                <results>
+                  <test-case name="Phresco.UnitTesting.FusionChartsTest.GetChart_ValidParameter_ReturnType" executed="True" result="Success" success="True" time="0.047" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="ItemEventReceiver" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="Phresco.UnitTesting.ItemEventReceiver.ItemEventReceiverTests" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="PopupWebpartTest" executed="True" result="Success" success="True" time="0.141" asserts="0">
+                <results>
+                  <test-case name="Phresco.UnitTesting.PopupWebpartTest.PopupWebpart_TestMethod" executed="True" result="Success" success="True" time="0.141" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="RegularExpressionTest" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="Phresco.UnitTesting.RegularExpressionTest.RegularExpressionTest1" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="XMLtoListTest" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                <results>
+                  <test-case name="Phresco.UnitTesting.XMLtoListTest.XmltoListTest1" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -1,0 +1,70 @@
+C:\Documents and Settings\Photon\My Documents\Visual Studio 2008\Projects\AllTest\AllTest\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Photon\My Documents\Visual Studio 2008\Projects\AllTest\AllTest\bin\Release\AllTest.dll.config
+C:\Documents and Settings\Photon\My Documents\Visual Studio 2008\Projects\AllTest\AllTest\bin\Release\AllTest.dll
+C:\Documents and Settings\Photon\My Documents\Visual Studio 2008\Projects\AllTest\AllTest\bin\Release\AllTest.pdb
+C:\Documents and Settings\Photon\My Documents\Visual Studio 2008\Projects\AllTest\AllTest\bin\Release\nmock.dll
+C:\Documents and Settings\Photon\My Documents\Visual Studio 2008\Projects\AllTest\AllTest\bin\Release\nunit.core.dll
+C:\Documents and Settings\Photon\My Documents\Visual Studio 2008\Projects\AllTest\AllTest\bin\Release\nunit.framework.dll
+C:\Documents and Settings\Photon\My Documents\Visual Studio 2008\Projects\AllTest\AllTest\bin\Release\ThoughtWorks.Selenium.Core.dll
+C:\Documents and Settings\Photon\My Documents\Visual Studio 2008\Projects\AllTest\AllTest\bin\Release\ThoughtWorks.Selenium.IntegrationTests.dll
+C:\Documents and Settings\Photon\My Documents\Visual Studio 2008\Projects\AllTest\AllTest\bin\Release\ThoughtWorks.Selenium.UnitTests.dll
+C:\Documents and Settings\Photon\My Documents\Visual Studio 2008\Projects\AllTest\AllTest\bin\Release\ThoughtWorks.Selenium.Core.pdb
+C:\Documents and Settings\Photon\My Documents\Visual Studio 2008\Projects\AllTest\AllTest\bin\Release\ThoughtWorks.Selenium.UnitTests.pdb
+C:\Documents and Settings\Photon\My Documents\Visual Studio 2008\Projects\AllTest\AllTest\bin\Release\ThoughtWorks.Selenium.IntegrationTests.pdb
+C:\Documents and Settings\Photon\My Documents\Visual Studio 2008\Projects\AllTest\AllTest\obj\Release\AllTest.dll
+C:\Documents and Settings\Photon\My Documents\Visual Studio 2008\Projects\AllTest\AllTest\obj\Release\AllTest.pdb
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\AllTest.dll.config
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\AllTest.dll
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\AllTest.pdb
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\nunit.framework.dll
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\ThoughtWorks.Selenium.Core.pdb
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\nunit.framework.xml
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\obj\Release\ResolveAssemblyReference.cache
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\obj\Release\AllTest.dll
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\obj\Release\AllTest.pdb
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\Selenium.WebDriverBackedSelenium.dll
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\WebDriver.dll
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\WebDriver.Common.dll
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\WebDriver.Remote.dll
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\WebDriver.Remote.Server.dll
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\Newtonsoft.Json.Net20.dll
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\WebDriver.Common.pdb
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\WebDriver.Common.xml
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\WebDriver.Remote.Server.pdb
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\WebDriver.Remote.pdb
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\WebDriver.Remote.xml
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\Ionic.Zip.dll
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\ThoughtWorks.Selenium.Core.dll
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\WebDriver.Support.dll
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\Newtonsoft.Json.dll
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\Castle.Core.dll
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\WebDriver.pdb
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\WebDriver.xml
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\Selenium.WebDriverBackedSelenium.pdb
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\Selenium.WebDriverBackedSelenium.xml
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\WebDriver.Support.pdb
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\WebDriver.Support.xml
+E:\1.0.5002\phresco-framework\workspace\projects\PHR_sharepoint\test\functional\AllTest\bin\Release\ThoughtWorks.Selenium.Core.xml
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\AllTest.dll.config
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\AllTest.dll
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\AllTest.pdb
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\Ionic.Zip.dll
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\nunit.framework.dll
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\ThoughtWorks.Selenium.Core.dll
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\WebDriver.dll
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\Newtonsoft.Json.dll
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\WebDriver.pdb
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\WebDriver.xml
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\nunit.framework.xml
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\Selenium.WebDriverBackedSelenium.pdb
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\Selenium.WebDriverBackedSelenium.xml
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\ThoughtWorks.Selenium.Core.pdb
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\ThoughtWorks.Selenium.Core.xml
+E:\webdriveralltest\sharepoint\AllTest\obj\Release\ResolveAssemblyReference.cache
+E:\webdriveralltest\sharepoint\AllTest\obj\Release\AllTest.dll
+E:\webdriveralltest\sharepoint\AllTest\obj\Release\AllTest.pdb
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\System.Drawing.dll
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\WebDriver.Support.dll
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\Castle.Core.dll
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\WebDriver.Support.pdb
+E:\webdriveralltest\sharepoint\AllTest\bin\Release\WebDriver.Support.xml

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1006]C:\Phresco\PhrescoSharepointProject\ResourceManagement\source\Phresco.UnitTesting\bin\Debug\Phresco.UnitTesting.dll</TopNode>
+  <SelectedNode>[0-1008]Phresco.UnitTesting</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1006]C:\Phresco\PhrescoSharepointProject\ResourceManagement\source\Phresco.UnitTesting\bin\Debug\Phresco.UnitTesting.dll" Expanded="true" />
+    <Node UniqueName="[0-1007]Phresco" Expanded="true" />
+    <Node UniqueName="[0-1008]Phresco.UnitTesting" Expanded="true" />
+    <Node UniqueName="[0-1000]Phresco.UnitTesting.FusionChartsTest" Expanded="true" />
+    <Node UniqueName="[0-1004]Phresco.UnitTesting.ItemEventReceiver" Expanded="true" />
+    <Node UniqueName="[0-1002]Phresco.UnitTesting.PopupWebpartTest" Expanded="true" />
+  </Nodes>
+</VisualState>

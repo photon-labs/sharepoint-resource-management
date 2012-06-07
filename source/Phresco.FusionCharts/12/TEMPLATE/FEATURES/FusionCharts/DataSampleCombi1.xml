@@ -1,0 +1,50 @@
+﻿<graph PYAxisName='Amount' SYAxisName='Quantity' shownames='1' showvalues='0' showLegend='1' rotateNames='0' formatNumberScale='1' decimalPrecision='2' limitsDecimalPrecision='0' divLineDecimalPrecision='1' formatNumber='1' chartTopMargin='15'>
+  <categories>
+    <category name='Ernst...' hoverText='Ernst Handel'/>
+    <category name='QUICK...' hoverText='QUICK-Stop'/>
+    <category name='Save-...' hoverText='Save-a-lot Markets'/>
+    <category name='Hanar...' hoverText='Hanari Carnes'/>
+    <category name='Rattl...' hoverText='Rattlesnake Canyon Grocery'/>
+    <category name='Hungr...' hoverText='Hungry Owl All-Night Grocers'/>
+    <category name='König...' hoverText='Königlich Essen'/>
+    <category name='White...' hoverText='White Clover Markets'/>
+    <category name='Folk ...' hoverText='Folk och fä HB'/>
+    <category name='Suprê...' hoverText='Suprêmes délices'/>
+  </categories>
+  <dataset seriesname='Amount' showValues='0' color='AFD8F8' parentYAxis='P' numberPrefix='$'>
+    <set value='41210.65' />
+    <set value='37217.32' />
+    <set value='36310.11' />
+    <set value='23821.2' />
+    <set value='21238.27' />
+    <set value='20402.12' />
+    <set value='19582.77' />
+    <set value='15278.9' />
+    <set value='13644.06' />
+    <set value='11644.6' />
+  </dataset>
+  <dataset seriesname='Discount' showValues='0' color='FDC12E' parentYAxis='P' numberPrefix='$'>
+    <set value='1202.27254486084' />
+    <set value='2736.60256195068' />
+    <set value='5047.74497413635' />
+    <set value='337.672510147095' />
+    <set value='404.888009995222' />
+    <set value='1844.77046012878' />
+    <set value='528.849014282227' />
+    <set value='0' />
+    <set value='1798.85203838348' />
+    <set value='174.320002555847' />
+  </dataset>
+  <dataset seriesname='Quantity' showValues='0' color='FF8000' anchorBorderColor='FF8000' parentYAxis='S' lineThickness='4'>
+    <set value='1756' />
+    <set value='1096' />
+    <set value='1817' />
+    <set value='478' />
+    <set value='438' />
+    <set value='395' />
+    <set value='400' />
+    <set value='360' />
+    <set value='560' />
+    <set value='532' />
+  </dataset>
+</graph>

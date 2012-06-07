@@ -1,0 +1,1 @@
+C:\Phresco\PhrescoSharepointProject\ResourceManagement\test\unit\AllTest\obj\Debug\ResolveAssemblyReference.cache

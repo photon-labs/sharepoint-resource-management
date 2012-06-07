@@ -1,0 +1,6 @@
+### XMLtoList 
+Phresco.XMLtoList\12\TEMPLATE\FEATURES\XMLtoList\Lists.xml
+###Popup Webpart
+Phresco.PopupWebPart\12\TEMPLATE\LAYOUTS\yarracity\SPPopupWithPreferences\SPPopupWithPreferences.htm
+
+

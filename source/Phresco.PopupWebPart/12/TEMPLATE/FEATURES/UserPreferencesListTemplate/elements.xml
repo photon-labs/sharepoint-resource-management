@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="ListTemplateLoading" Url="_catalogs/lt" RootWebOnly="TRUE">
+    <File Url="UserPreferences.stp" Type="GhostableInLibrary">
+      <Property Name="Title" Value="User Preferences"></Property>
+      <Property Name="Description" Value="A List based on this List Template is used in conjunction with the User Popup Web Part, to store user preferences associated to the operation of the web part." />
+    </File>
+  </Module>
+</Elements>

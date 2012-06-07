@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Module #1 : Contains all necessary files to run Fusion Charts -->
+  <Module Name="FusionCharts" Path="." Url="FusionCharts">
+    <!-- Flash files to render charts -->
+    <File Url="FCF_Area2D.swf" Type="Ghostable"></File>
+    <File Url="FCF_Bar2D.swf" Type="Ghostable"></File>
+    <File Url="FCF_Candlestick.swf" Type="Ghostable"></File>
+    <File Url="FCF_Column2D.swf" Type="Ghostable"></File>
+    <File Url="FCF_Column3D.swf" Type="Ghostable"></File>
+    <File Url="FCF_Doughnut2D.swf" Type="Ghostable"></File>
+    <File Url="FCF_Funnel.swf" Type="Ghostable"></File>
+    <File Url="FCF_Gantt.swf" Type="Ghostable"></File>
+    <File Url="FCF_Line.swf" Type="Ghostable"></File>
+    <File Url="FCF_MSArea2D.swf" Type="Ghostable"></File>
+    <File Url="FCF_MSBar2D.swf" Type="Ghostable"></File>
+    <File Url="FCF_MSColumn2D.swf" Type="Ghostable"></File>
+    <File Url="FCF_MSColumn2DLineDY.swf" Type="Ghostable"></File>
+    <File Url="FCF_MSColumn3D.swf" Type="Ghostable"></File>
+    <File Url="FCF_MSColumn3DLineDY.swf" Type="Ghostable"></File>
+    <File Url="FCF_MSLine.swf" Type="Ghostable"></File>
+    <File Url="FCF_Pie2D.swf" Type="Ghostable"></File>
+    <File Url="FCF_Pie3D.swf" Type="Ghostable"></File>
+    <File Url="FCF_StackedArea2D.swf" Type="Ghostable"></File>
+    <File Url="FCF_StackedBar2D.swf" Type="Ghostable"></File>
+    <File Url="FCF_StackedColumn2D.swf" Type="Ghostable"></File>
+    <File Url="FCF_StackedColumn3D.swf" Type="Ghostable"></File>
+    <!-- Javascript file for FusionChart -->
+    <File Url="FusionCharts.js" Type="Ghostable"></File>
+    <!-- Sample XML files -->
+    <File Url="DataSampleSS1.xml" Type="Ghostable"></File>
+    <File Url="DataSampleMS1.xml" Type="Ghostable"></File>
+    <File Url="DataSampleGantt1.xml" Type="Ghostable"></File>
+    <File Url="DataSampleStacked1.xml" Type="Ghostable"></File>
+    <File Url="DataSampleCombi1.xml" Type="Ghostable"></File>
+    <File Url="DataSampleCandleStick1.xml" Type="Ghostable"></File>
+  </Module>
+  
+  <!-- Module #2 : Web Parts -->
+  <Module Name="WebPartPopulation" Url="_catalogs/wp" RootWebOnly="TRUE">
+    <!-- WebPart #1 : Displays a graph from an XML input -->
+    <File Url="ChartFromXml.webpart" Type="GhostableInLibrary">
+      <Property Name="Group" Value="Fusion Charts"></Property>
+      <Property Name="QuickAddGroups" Value="Fusion Charts" />
+    </File>
+    <!-- WebPart #2 : Displays a graph from a list -->
+    <File Url="ChartFromList.webpart" Type="GhostableInLibrary">
+      <Property Name="Group" Value="Fusion Charts"></Property>
+      <Property Name="QuickAddGroups" Value="Fusion Charts" />
+    </File>
+  </Module>
+  
+</Elements>

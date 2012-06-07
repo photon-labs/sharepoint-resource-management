@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1013]E:\webdriveralltest\sharepoint\AllTest\bin\Release\AllTest.dll</TopNode>
+  <SelectedNode>[0-1010]ChartList_Create_Delete.Chart_Create_Delete.ChartListPrepTest</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1013]E:\webdriveralltest\sharepoint\AllTest\bin\Release\AllTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1017]ChartList_Create_Delete" Expanded="true" />
+    <Node UniqueName="[0-1009]ChartList_Create_Delete.Chart_Create_Delete" Expanded="true" />
+    <Node UniqueName="[0-1015]DefaultMasterPage" Expanded="true" />
+    <Node UniqueName="[0-1003]DefaultMasterPage.Default_Phresco_MasterPage" Expanded="true" />
+    <Node UniqueName="[0-1014]List_Creation_Definition_Demo" Expanded="true" />
+    <Node UniqueName="[0-1000]List_Creation_Definition_Demo.List_Creation_definition" Expanded="true" />
+    <Node UniqueName="[0-1016]searchText" Expanded="true" />
+    <Node UniqueName="[0-1006]searchText.SearchText_Home_List" Expanded="true" />
+  </Nodes>
+</VisualState>

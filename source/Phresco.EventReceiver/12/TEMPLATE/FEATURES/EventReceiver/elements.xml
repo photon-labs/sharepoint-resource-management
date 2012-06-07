@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="100">
+    <Receiver>
+      <Name>AddedEventHandler</Name>
+      <Type>ItemAdded</Type>
+      <SequenceNumber>10000</SequenceNumber>
+      <Assembly>Phresco.EventReceiver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=95abd3479d4d29d4</Assembly>
+      <Class>Phresco.EventReceiver.EventReceiver</Class>
+      <Data></Data>
+      <Filter></Filter>
+    </Receiver>
+
+      <Receiver>
+          <Name>UpdatedEventHandler</Name>
+          <Type>ItemUpdated</Type>
+          <SequenceNumber>10000</SequenceNumber>
+          <Assembly>Phresco.EventReceiver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=95abd3479d4d29d4</Assembly>
+          <Class>Phresco.EventReceiver.EventReceiver</Class>
+          <Data></Data>
+          <Filter></Filter>
+      </Receiver>
+  </Receivers>
+</Elements>

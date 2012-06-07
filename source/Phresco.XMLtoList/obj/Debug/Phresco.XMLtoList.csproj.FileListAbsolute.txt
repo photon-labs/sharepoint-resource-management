@@ -1,0 +1,7 @@
+C:\Phresco\PhrescoSharepointProject\ResourceManagement\source\Phresco.XMLtoList\bin\Debug\Phresco.XMLtoList.dll
+C:\Phresco\PhrescoSharepointProject\ResourceManagement\source\Phresco.XMLtoList\bin\Debug\Phresco.XMLtoList.pdb
+C:\Phresco\PhrescoSharepointProject\ResourceManagement\source\Phresco.XMLtoList\bin\Debug\Microsoft.SharePoint.Search.dll
+C:\Phresco\PhrescoSharepointProject\ResourceManagement\source\Phresco.XMLtoList\bin\Debug\Microsoft.SharePoint.Search.xml
+C:\Phresco\PhrescoSharepointProject\ResourceManagement\source\Phresco.XMLtoList\obj\Debug\ResolveAssemblyReference.cache
+C:\Phresco\PhrescoSharepointProject\ResourceManagement\source\Phresco.XMLtoList\obj\Debug\Phresco.XMLtoList.dll
+C:\Phresco\PhrescoSharepointProject\ResourceManagement\source\Phresco.XMLtoList\obj\Debug\Phresco.XMLtoList.pdb

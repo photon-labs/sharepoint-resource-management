@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/"
+         Id="64D0A38F-9698-43e5-A785-F832542229A5"
+         Title="Phresco XML to List"
+         Description="This feature once activated will all the lists and groups required by the application"
+         Scope="Web"
+         Hidden="false"
+         Version="1.0.0.0"
+         ReceiverAssembly="Phresco.XMLtoList, Version=1.0.0.0, Culture=neutral, PublicKeyToken=726c4ffcea5d7a9f"
+         ReceiverClass="Phresco.XMLtoList.Setup">
+</Feature>
+
