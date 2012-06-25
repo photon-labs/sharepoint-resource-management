@@ -5,7 +5,7 @@
 	<artifactId>Phresco</artifactId>
 	<packaging>pom</packaging>
 	<name>Load testing for Sharepoint</name>
-	<version>2007</version>
+	<version>1.2.0.3001-SNAPSHOT</version>
 	
 	<build>
 		<plugins>
