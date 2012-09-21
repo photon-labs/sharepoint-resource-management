@@ -47,5 +47,7 @@
         <visual.test.project.pattern xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">test/functional/*.Tests;*Test</visual.test.project.pattern>
         <dotnet.tool.version xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">3.5</dotnet.tool.version>
         <sonar.language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">cs</sonar.language>
+		<sonar.ndeps.mode>skip</sonar.ndeps.mode> 
+		<sonar.fxcop.mode>skip</sonar.fxcop.mode>
     </properties>
 </project>
