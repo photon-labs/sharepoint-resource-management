@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SharepointAllTest"  thread-count="5" verbose="3" > 
+ <test name="VerifySharepointTestSuit" junit="false" preserve-order="false"> 
+ <classes> 
+    <class name="com.photon.phresco.testcases.SharepointAllTest"/>  
+    <methods>
+    <include name="VM_Allocation"/>
+    <include name="VM_Allocation_Invalid_ip"/>
+    <include name="VM_Allocation_VALID_IP"/>
+    <include name="create_list"/>
+    <include name="LIST"/>
+    <include name="MostersPage"/>
+    <include name="HOME_SEARCH_ALL"/>
+    <include name="VM_ALLOCATION_LIST"/>
+    
+    
+    </methods>
+  </classes>
+</test>     
+</suite>
+ 
+
+ 	
+ 

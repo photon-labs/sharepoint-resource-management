@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AllTest"  verbose="1" >
+   <suite-files>
+  <suite-file path="./SuiteTest1.xml"/>
+<!--    <suite-file path="./SuiteTest2.xml"/> -->
+   </suite-files>
+</suite>
+  
+  
+  
+  
+  
+  
+  

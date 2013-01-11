@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+<mobilewidget>
+     <billingInfoPage>
+     
+     			<titlename>Phresco_ChartList</titlename>//vmallocation_new_name_value
+     			<vmallocation_new_systemname_value>Dell</vmallocation_new_systemname_value>
+     			<vmallocation_new_operatingsystem_value>Windows XP</vmallocation_new_operatingsystem_value>
+     			<System_Configuration_value>4 GB RAM,120 GB HardDisk</System_Configuration_value>
+     			<vmallocation_new_hardwaretype_id_value>Desktop</vmallocation_new_hardwaretype_id_value>
+         		<vmallocation_new_serialnumber_value>2468</vmallocation_new_serialnumber_value>
+               	<vmallocation_new_owner_value>Photon Infotech</vmallocation_new_owner_value>  
+         		<vmallocation_new_status_value>Active</vmallocation_new_status_value>
+         		<vmallocation_new_private_value>127.2.2.120</vmallocation_new_private_value>
+         		 <invalid_value>270.2.3.400</invalid_value> 
+         		 <listcreation_listname_value>QA_list</listcreation_listname_value>
+         		 <listcreation_listdescription_value>This is Phresco_List description</listcreation_listdescription_value>
+         		 <titlevalue>phresco</titlevalue>
+         		 <singletextvalues>hello world from phresco</singletextvalues>
+                 <numberival>70</numberival>
+                 <numberiival>6</numberiival>
+                 <curtukval>125</curtukval>
+                 <curitaval>200</curitaval>
+                 <dateval>12/12/2011</dateval>
+                 <!-- <urlival>http://www.microsoft.com</urlival>
+                 <urliival>http://www.microsoft.com</urliival>
+      -->
+     
+    <!--  home search  value -->
+    <allsites>All Sites</allsites>
+   <search_select_value>sample</search_select_value>  
+   <homesearch_click_post>Phresco_List</homesearch_click_post> 
+    <vm_search_field_value>Phresco_ChartList</vm_search_field_value> 
+     
+     
+     
+     
+     
+     
+	           <billInfoCommentsValue>First order</billInfoCommentsValue>
+	           <billInfoPhoneNumberValue>+1 212-398-2449</billInfoPhoneNumberValue>
+	           <billInfoStateValue>Boston</billInfoStateValue>
+	           <billInfoPostCodeValue>10019</billInfoPostCodeValue>
+	           <billInfoAddress2Value>Newyork</billInfoAddress2Value>
+	           <billInfoCityValue>NewJersey city</billInfoCityValue>
+	           <billInfoCompanyValue>Photon</billInfoCompanyValue>
+	           <billInfoAddress1Value>USA</billInfoAddress1Value>
+	           <billInfoLastNameValue>David</billInfoLastNameValue>
+	           <billInfoFirstNameValue>John</billInfoFirstNameValue>
+	           <billInfoEmailValue>Phresco@PhotonInfotech.net</billInfoEmailValue>
+	 </billingInfoPage>    
+	 <cardInfoPage>      
+	           <cardInfoNameOnCardValue>JohnDavid</cardInfoNameOnCardValue>
+	           <cardInfoCardNumberValue>235967841</cardInfoCardNumberValue>
+	           <cardInfoSecurityNumberValue>5836</cardInfoSecurityNumberValue>
+	 </cardInfoPage>
+</mobilewidget>
+</phresco>
+</environment>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="WelcomePageTestSuite"  verbose="3" >
+     	<test name="VerifyWelcomePage" junit="false" preserve-order="true">  
+		 	<classes> 
+	  		<class name="com.photon.phresco.testcases.WelcomePageTestCase"/>  
+	  		</classes> 
+ 	</test>        
+</suite>
+ 
+
+ 	
+ 
+
+ 	
+ 

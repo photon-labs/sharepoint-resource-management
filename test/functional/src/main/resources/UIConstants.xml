@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+<phresco>
+<yuiwidget>
+     <tabs>
+     //sharepoint//
+	           <hometab>xpath=(//a[contains(text(),'Phresco')])[3]</hometab>//phresco
+	           <televisiontab>//a[contains(text(),'Television')]</televisiontab>//VM alocation
+	           <computerstab>//a[contains(text(),'Computers')]</computerstab>
+	           <mobiletab>//a[contains(text(),'Mobile Phones')]</mobiletab>
+	           <audioDevicestab>//tr[@id='zz2_QuickLaunchMenun0']/td/table/tbody/tr/td/a</audioDevicestab>
+	           <camerastab>//a[contains(text(),'Cameras')]</camerastab>
+	           <tabletstab>//a[contains(text(),'Tablets')]</tabletstab>
+	           <moviesNmusictab>//a[contains(text(),'Movies and Music')]</moviesNmusictab>
+	           <videoGamestab>//a[contains(text(),'Video Games')]</videoGamestab>
+	           <mp3Playerstab>//a[contains(text(),'MP3 Players')]</mp3Playerstab>
+	           <accessoriestab>//a[contains(text(),'Accessories')]</accessoriestab>
+	           <moretab>//a[contains(text(),'More')]</moretab>
+	       </tabs>
+	       <productPage>
+	           <prod1Details>//a[contains(text(),'VM_Allocation')]</prod1Details>//VM_Allocation
+	           <prod1Accessories>//td[@id='zz11_New0']/label/div/b/span</prod1Accessories>
+	           <updateCart>//a[contains(text(),'Update Cart')]</updateCart>
+	           <addToCart>//div[@id='scroller']/div[2]/ul/li/div/div[2]/div[2]/a[2]/img</addToCart>
+	           <prod1DetailAddToCart>//a[@id='zz12_NewMenu']</prod1DetailAddToCart>//vmallocation_new_button
+	           <prod1AudioDevices>//div[@id='left']/ul/li/div[2]/a</prod1AudioDevices>
+	          <checkout>//input[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl00_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</checkout> //vmallocation_new_name_id
+	          <vmallocation_new_systemname_id>//input[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl01_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</vmallocation_new_systemname_id>
+	          <vmallocation_new_operatingsystem_id>//select[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl02_ctl00_ctl00_ctl04_ctl00_DropDownChoice']</vmallocation_new_operatingsystem_id>
+	          <System_Configuration>//textarea[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl03_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</System_Configuration>
+	          <vmallocation_new_hardwaretype_id>//select[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl05_ctl00_ctl00_ctl04_ctl00_DropDownChoice']</vmallocation_new_hardwaretype_id>
+	          <vmallocation_new_serialnumber_id>//input[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl06_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</vmallocation_new_serialnumber_id>
+	        <new>id('zz12_NewMenu')</new>
+	        /****NEW***/
+	        
+	          <vmallocation_new_owner_id>//input[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl13_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</vmallocation_new_owner_id>
+	          <vmallocation_new_status_id>//select[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl18_ctl00_ctl00_ctl04_ctl00_DropDownChoice']</vmallocation_new_status_id>
+	          <vmallocation_new_privateip_id>//input[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_ctl04_ctl20_ctl00_ctl00_ctl04_ctl00_ctl00_TextField']</vmallocation_new_privateip_id>
+	          <vmallocation_new_ok_id>//input[@id='ctl00_m_g_4dd0192c_3a45_4248_97f0_505d2a5b0ac3_ctl00_toolBarTbl_RightRptControls_ctl00_ctl00_diidIOSaveItem']</vmallocation_new_ok_id>
+	          <cancel>//td/table/tbody/tr/td[4]/table/tbody/tr/td/input</cancel>
+	          
+	          
+	  <listcreation_viewallsitecontents_link>//tr[@id='zz2_QuickLaunchMenun0']/td/table/tbody/tr/td/a</listcreation_viewallsitecontents_link>        
+	 <listcreation_Create_link>//a[@id='ctl00_PlaceHolderMain_ToolBar_RptControls_diidIONewList']</listcreation_Create_link>         
+	          
+	  <listcreation_phrescolistdef_link>//a[contains(text(),'Phresco List Definition')]</listcreation_phrescolistdef_link>
+      <listcreation_listname_id>//input[@id='onetidListTitle']</listcreation_listname_id>       
+	  <listcreation_listdescription_id>//textarea[@id='onetidListDescription']</listcreation_listdescription_id>
+	  <listcreation_createbutton_id>//input[@id='ctl00_PlaceHolderMain_onetidCreateList']</listcreation_createbutton_id>
+	  
+	  <listid>//tr[3]/td/table/tbody/tr/td/a</listid>
+	 <samplecreate>//td/table/tbody/tr[3]/td/table/tbody/tr/td/a</samplecreate>
+	<listnew>//span[2]/table/tbody/tr/td/a</listnew>
+	<titlevalue>//span/input</titlevalue>
+	<singletextvalue>//tr[2]/td[2]/span/input</singletextvalue>
+	<mulchoice>//span/table/tbody/tr/td/select</mulchoice>
+	<mulcheslet>//span/table/tbody/tr/td/select</mulcheslet>
+	<rdselect>//tr[5]/td[2]/span/table/tbody/tr/td/span/input</rdselect>
+	<numberi>//tr[6]/td[2]/span/input</numberi>
+	<number2>//tr[7]/td[2]/span/input</number2>
+	<certuk>//tr[8]/td[2]/span/input</certuk>
+	<curita>//tr[9]/td[2]/span/input</curita>
+	<date>//tr[10]/td[2]/span/table/tbody/tr/td/input</date>
+	<clickok>//td/table/tbody/tr/td[2]/table/tbody/tr/td/input</clickok>
+	  
+	<masterpage>//td[5]/table/tbody/tr/td/a</masterpage>    
+	<site_action>//div/span/div/a</site_action>
+	<site_settings>//tr[3]/td/table/tbody/tr/td[2]/label/div/b/span</site_settings>
+	<masterpage_link>//td[3]/table/tbody/tr[3]/td/table/tbody/tr/td/table/tbody/tr[2]/td[2]/a</masterpage_link>
+	<radio1>//td[2]/div[2]/input</radio1>
+	<master_dropdownlist>//select[@id='ctl00_PlaceHolderMain_ctl00_ctl00_masterPageSelectionControl_ctl00_SiteMasterPageDropDownList']</master_dropdownlist>
+	<master_select>//select</master_select>
+	<radio2>//tr[4]/td[2]/table/tbody/tr[2]/td[2]/table/tbody/tr[3]/td[2]/div[2]/input</radio2>
+	<mas_dropdown>//select[@id='ctl00_PlaceHolderMain_ctl01_ctl00_systemMasterPageSelectionControl_ctl00_SystemMasterPageDropDownList']</mas_dropdown>
+	<mast_drop_sclect>//tr[4]/td[2]/table/tbody/tr[2]/td[2]/table/tbody/tr[3]/td[2]/div[2]/div/div/span/table/tbody/tr/td/select</mast_drop_sclect>
+	<master_ok>//td[2]/input</master_ok>
+	<phresco_page>//td[2]/table/tbody/tr/td/table/tbody/tr/td/a</phresco_page>
+	<!-- home search ids -->
+	
+	
+	<homesearch_click>//select</homesearch_click>
+    <!-- <homesearch_click_select></homesearch_click_select> -->
+    <search_select>//input[@id='ctl00_PlaceHolderSearchArea_ctl01_S3031AEBB_InputKeywords']</search_select>
+   <!--  <search_select_value></search_select_value> -->
+	<search_home>//td[3]/a/img</search_home>
+	<click_this>//select</click_this> 
+	<!-- <site_value></site_value> -->
+	<field_value>//td[2]/input</field_value>
+	<!-- <post_value></post_value> -->
+	<image>//td[3]/a/img</image>
+	      
+	 <this_site_vmall>//select[@id='ctl00_PlaceHolderSearchArea_ctl01_SBScopesDDL']</this_site_vmall>
+     <vm_search_field>//td[2]/input</vm_search_field>
+	      
+	      
+	      
+	           <reviewOrder>//input[@value='Review Order']</reviewOrder>
+	           <submitOrder>//input[@value='Submit Order']</submitOrder>
+	       </productPage>
+	       <billingInfoPage>
+	           <billInfoEmail>//input[@id='email']</billInfoEmail>
+	           <billInfoFirstName>firstName</billInfoFirstName>
+	           <billInfoLastName>lastName</billInfoLastName>
+	           <billInfoCompany>company</billInfoCompany>
+	           <billInfoAddress1>address1</billInfoAddress1>
+	           <billInfoAddress2>address2</billInfoAddress2>
+	           <billInfoCity>city</billInfoCity>
+	           <billInfoState>state</billInfoState>
+	           <billInfoPostCode>postCode</billInfoPostCode>
+	           <billInfoPhoneNumber>phoneNumber</billInfoPhoneNumber>
+	           <billInfoComments>//textarea[@name='comments']</billInfoComments>
+	       </billingInfoPage>
+	       <cardInfoPage>
+	           <cardInfoCardType>//form[@id='contact']/div[4]/fieldset/div/div/label[2]/input</cardInfoCardType>
+	           <cardInfoCardNumber>cardNumber</cardInfoCardNumber>
+	           <cardInfoSecurityNumber>securityNumber</cardInfoSecurityNumber>
+	           <cardInfoNameOnCard>nameOnCard</cardInfoNameOnCard>
+	       </cardInfoPage>
+</yuiwidget>
+</phresco>
+</environment>

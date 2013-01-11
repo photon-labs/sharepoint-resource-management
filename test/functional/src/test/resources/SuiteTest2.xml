@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LoginTestSuite"   verbose="3" >
+   	<test name="VerifyLoginOnFirefox" junit="false" preserve-order="true">  
+		 	<classes> 
+	  		<class name="com.photon.phresco.testcases.WelcomePageTestCase"/>  
+	  		</classes> 
+ 	</test>        
+</suite>
+
+ 	
+ 

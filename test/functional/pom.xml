@@ -1,64 +1,116 @@
-<!--
-  ###
-  PHR_SharePointResourceManagement
-  %%
-  Copyright (C) 1999 - 2012 Photon Infotech Inc.
-  %%
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-  
-       http://www.apache.org/licenses/LICENSE-2.0
-  
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  ###
-  -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>Photon</groupId>
-  <artifactId>Phresco</artifactId>
-  <version>2.0.0.32002-SNAPSHOT</version>
-    <pluginRepositories>
-		<pluginRepository>
-			<id>sharepoint-maven-plugin</id>
-			<name>Phresco Repository</name>
-			<url>http://repo.photoninfotech.com:8880/repo/content/groups/public/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-		</pluginRepository>
-	</pluginRepositories>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.photon.phresco</groupId>
+	<artifactId>SharePoint_None</artifactId>
+	<version>0.0.1</version>
+	<packaging>jar</packaging>
+	<name>SharePoint_Eshop</name>
+	<url>http://maven.apache.org</url>
 	<repositories>
 		<repository>
-			<id>nunit binaries</id>
-			<name>Phresco Repository</name>
-			<url>http://repo.photoninfotech.com:8880/repo/content/groups/public/</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
+			<id>seleniumserver</id>
+			<name>seleniumserver</name>
+			<url>http://172.16.18.178:8080/nexus/content/repositories/releases/</url>
 		</repository>
 	</repositories>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.3.1</version>
+
+		</dependency>
+		<!-- <dependency> <groupId>org.seleniumhq.selenium</groupId> <artifactId>selenium-server</artifactId> 
+			<version>2.21.0</version> </dependency> -->
+		<!-- <dependency> <groupId>org.seleniumhq.selenium</groupId> <artifactId>selenium-server</artifactId> 
+			<version>2.25.0</version> </dependency> -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>2.25.0</version>
+		</dependency>
+		<!-- ***************For Windows operadriver ****************** -->
+		<!-- <dependency> <groupId>com.opera</groupId> <artifactId>operadriver</artifactId> 
+			<version>0.14</version> </dependency> -->
+		<dependency>
+			<groupId>com.opera</groupId>
+			<artifactId>operadriver</artifactId>
+			<version>0.16.1</version>
+		</dependency>
+
+
+		<!-- ***************For Windows chromedriver ****************** -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>chromedriver</artifactId>
+			<version>23.0.1240.0</version>
+			<classifier>win</classifier>
+			<type>zip</type>
+		</dependency>
+		<!-- **************** For Mac machine chromedriver***************** -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>chromedriver</artifactId>
+			<version>23.0.1240.0</version>
+			<classifier>mac</classifier>
+			<type>zip</type>
+		</dependency>
+
+		<!-- **************** For Linux-32 machine chromedriver***************** -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>chromedriver</artifactId>
+			<version>23.0.1240.0</version>
+			<classifier>linux32</classifier>
+			<type>zip</type>
+		</dependency>
+		<!-- **************** For Linux-64 machine chromedriver***************** -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>chromedriver</artifactId>
+			<version>23.0.1240.0</version>
+			<classifier>linux64</classifier>
+			<type>zip</type>
+		</dependency>
+		<!--<dependency> <groupId>org.testng</groupId> <artifactId>testng</artifactId> 
+			<version>6.2</version> </dependency> -->
+	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>com.photon.phresco.plugins</groupId>
-				<artifactId>sharepoint-maven-plugin</artifactId>
-				<version>2.0.0.32002-SNAPSHOT</version>
-				<extensions>true</extensions>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<inherited>true</inherited>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-site-plugin</artifactId>
+				<version>2.1</version>
 				<executions>
 					<execution>
-						<id>functional-test</id>
 						<phase>test</phase>
 						<goals>
-							<goal>test</goal>
+							<goal>site</goal>
 						</goals>
 					</execution>
 				</executions>
+				<configuration>
+					<skipTests>true</skipTests>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -67,20 +119,49 @@
 				<executions>
 					<execution>
 						<id>unpack</id>
-						<phase>validate</phase>
+						<phase>compile</phase>
 						<goals>
 							<goal>unpack</goal>
 						</goals>
 						<configuration>
-							<markersDirectory>binaries</markersDirectory>
+							<markersDirectory>chromedriver</markersDirectory>
 							<artifactItems>
 								<artifactItem>
-									<groupId>binaries</groupId>
-									<artifactId>NUnit</artifactId>
-									<version>2.5.9.10348</version>
+									<groupId>org.seleniumhq.selenium</groupId>
+									<artifactId>chromedriver</artifactId>
+									<version>23.0.1240.0</version>
+									<classifier>win</classifier>
 									<type>zip</type>
 									<overWrite>false</overWrite>
-									<outputDirectory>binaries</outputDirectory>
+									<outputDirectory>chromedriver/windows</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+
+									<groupId>org.seleniumhq.selenium</groupId>
+									<artifactId>chromedriver</artifactId>
+									<version>23.0.1240.0</version>
+									<classifier>mac</classifier>
+									<type>zip</type>
+									<overWrite>false</overWrite>
+									<outputDirectory>chromedriver/mac</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.seleniumhq.selenium</groupId>
+									<artifactId>chromedriver</artifactId>
+									<version>23.0.1240.0</version>
+									<classifier>linux32</classifier>
+									<type>zip</type>
+									<overWrite>false</overWrite>
+									<outputDirectory>chromedriver/linux-32</outputDirectory>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.seleniumhq.selenium</groupId>
+									<artifactId>chromedriver</artifactId>
+									<version>23.0.1240.0</version>
+									<classifier>linux64</classifier>
+									<type>zip</type>
+									<overWrite>false</overWrite>
+									<outputDirectory>chromedriver/linux-64</outputDirectory>
 								</artifactItem>
 							</artifactItems>
 						</configuration>
@@ -88,28 +169,65 @@
 				</executions>
 			</plugin>
 			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>selenium-maven-plugin</artifactId>
-				<version>2.0</version>				
+				<artifactId>maven-antrun-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>compile</phase>
+						<configuration>
+							<tasks>
+								<chmod file="${project.basedir}/chromedriver/mac/chromedriver"
+									perm="777" />
+							</tasks>
+						</configuration>
+						<goals>
+							<goal>run</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			 <plugin> 
+			 <groupId>org.apache.maven.plugins</groupId> 
+			 <artifactId>maven-surefire-report-plugin</artifactId> 
+				<version>2.8</version>
+				 <executions> <execution>
+				  <phase>test</phase>
+				   <goals> 
+				<goal>report</goal>
+				 </goals> 
+				 </execution> 
+				 </executions>
+				  <configuration> 
+				  <skipTests>true</skipTests> 
+				</configuration>
+				 </plugin> 	
+	<!-- TestNG plugin for trigger the testng.xml file -->	
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.12.3</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>./src/test/java/com/photon/phresco/testsuites/AllTest.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
 			</plugin>
 		</plugins>
-		<sourceDirectory>AllTests/</sourceDirectory>
 	</build>
-	<dependencies>
-		<dependency>
-			<groupId>binaries</groupId>
-			<artifactId>NUnit</artifactId>
-			<version>2.5.9.10348</version>
-			<type>zip</type>
-		</dependency>
-	</dependencies>
-		
-	<properties>
-		<visual.studio.solution>AllTest.sln</visual.studio.solution>
-		<dotnet.tool.version>3.5</dotnet.tool.version>
-		<sonar.language>cs</sonar.language>
-		<sonar.ndeps.mode>skip</sonar.ndeps.mode> 
-		<sonar.fxcop.mode>skip</sonar.fxcop.mode>
-  </properties>	
-		
-</project>
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+				<version>2.8</version>
+				<configuration>
+					<skipTests>true</skipTests>
+				</configuration>
+			</plugin>
+			 <plugin>
+                <groupId>org.testng.xslt</groupId>
+                <artifactId>testng-xslt-plugin</artifactId>
+                <version>1.1.2</version>
+            </plugin>
+	</plugins>
+	</reporting>
+</project>	
