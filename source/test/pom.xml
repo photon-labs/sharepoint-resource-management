@@ -46,21 +46,6 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>com.photon.phresco.plugins</groupId>
-				<artifactId>sharepoint-maven-plugin</artifactId>
-				<version>2.0.0.34001-SNAPSHOT</version>
-				<extensions>true</extensions>
-				<executions>
-					<execution>
-						<id>unit-test</id>
-						<phase>test</phase>
-						<goals>
-							<goal>test</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
 				<version>2.3</version>
