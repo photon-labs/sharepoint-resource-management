@@ -18,12 +18,12 @@
                 <version>0.1</version>
                 <extensions>true</extensions>
             </plugin>
-            <!-- <plugin>
+            <plugin>
                 <groupId>com.photon.phresco.plugins</groupId>
                 <artifactId>phresco-maven-plugin</artifactId>
                 <version>2.2.0.2002-SNAPSHOT</version>
                 <extensions>true</extensions>
-            </plugin> -->
+            </plugin>
 			</plugins>
     </build>
     <properties>
