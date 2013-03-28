@@ -24,22 +24,7 @@
                 <version>2.1.0.4001-SNAPSHOT</version>
                 <extensions>true</extensions>
             </plugin>
-			<plugin>
-<groupId>com.mycila.maven-license-plugin</groupId>
-<artifactId>maven-license-plugin</artifactId>
-<configuration>
-<header>header.txt</header>
-<properties>
-<owner>Photon Infotech Inc.</owner>
-<year>1999-2013</year>
-<name>${project.name}</name>
-</properties>
-<excludes>
-<exclude>**/.phresco/**</exclude>
-<exclude>**/*.txt</exclude>
-</excludes>
-</configuration>
-</plugin>
+			
         </plugins>
     </build>
     <properties>
