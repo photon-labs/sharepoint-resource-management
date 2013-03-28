@@ -18,29 +18,13 @@
                 <version>0.1</version>
                 <extensions>true</extensions>
             </plugin>
-            <plugin>
+            <!-- <plugin>
                 <groupId>com.photon.phresco.plugins</groupId>
                 <artifactId>phresco-maven-plugin</artifactId>
                 <version>2.2.0.2002-SNAPSHOT</version>
                 <extensions>true</extensions>
-            </plugin>
-			<plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>license-maven-plugin</artifactId>
-                <version>1.1</version>
-                <configuration>
-                   <verbose>false</verbose>
-                   <processStartTag>###</processStartTag>
-                   <processEndTag>###</processEndTag>
-                  <!-- <sectionDelimiter>" "</sectionDelimiter> -->
-                   <licenseName>apache_v2</licenseName>
-				   <roots>
-				   <root>source</root>
-				   <root>test</root>
-				   </roots>
-                </configuration>
-            </plugin>
-        </plugins>
+            </plugin> -->
+			</plugins>
     </build>
     <properties>
         <visual.studio.solution xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">source/Phresco.Sharepoint.sln</visual.studio.solution>

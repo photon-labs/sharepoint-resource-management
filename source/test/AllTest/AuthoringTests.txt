@@ -1,3 +1,21 @@
+====
+    PHR_SharePointResourceManagement
+
+    Copyright (C) 1999-2013 Photon Infotech Inc.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+            http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+====
+
 ﻿==========================================================================
     Visual Studio Team System: Overview of Authoring and Running Tests    
 ==========================================================================
@@ -53,7 +71,7 @@ Changing the way that tests are run
 -----------------------------------
 Each time you run one or more tests, a collection of settings is used to
 determine how those tests are run. These settings are contained in a “test
-run configuration” file.
+run configuration�? file.
 
 Here is a partial list of the changes you can make with a test run 
 configuration file:
@@ -80,7 +98,7 @@ Solution Explorer and then changing its settings. (Test run configuration
 files have the extension .testrunconfig.)
 
 A solution can contain multiple test run configuration files. Only one of
-those files, known as the “Active” test run configuration file, is used to
+those files, known as the “Active�? test run configuration file, is used to
 determine the settings that are currently used for test runs. You select
 the active test run configuration by clicking Select Active Test Run 
 Configuration on the Test menu.
@@ -123,7 +141,7 @@ you can turn into generic tests:
    a failure.
  - A general program to obtain specific functionality during a test scenario.
  - A test or program that uses a special XML file (called a “summary results
-   file”), to communicate detailed results.
+   file�?), to communicate detailed results.
 
 Manual test: The manual test type is used when the test tasks are to be
 completed by a test engineer as opposed to an automated script.
