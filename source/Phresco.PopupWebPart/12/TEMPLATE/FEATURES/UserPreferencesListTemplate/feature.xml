@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
 <!--
 
     PHR_SharePointResourceManagement
@@ -17,7 +19,6 @@
     limitations under the License.
 
 -->
-﻿<?xml version="1.0" encoding="utf-8"?>
 
 <Feature  Id="70bd0f3e-0484-4f9b-a3b3-6802c50bcf63"
           Title="Phresco User Preferences ListTemplate"

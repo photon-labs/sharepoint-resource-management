@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <!--
 
     PHR_SharePointResourceManagement
@@ -17,8 +18,6 @@
     limitations under the License.
 
 -->
-﻿<?xml version="1.0" encoding="utf-8"?>
-
 
 <Feature  Id="d337bc2c-2cae-4c03-bdbc-eab744b3119d"
           Title="MasterPage"

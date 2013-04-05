@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 
     PHR_SharePointResourceManagement
@@ -17,8 +18,6 @@
     limitations under the License.
 
 -->
-﻿<?xml version="1.0" encoding="utf-8"?>
-
 
 <Feature  Id="de7cf91e-922d-4c80-8183-0b33003171a8"
           Title="Phresco Popup Web Part"
