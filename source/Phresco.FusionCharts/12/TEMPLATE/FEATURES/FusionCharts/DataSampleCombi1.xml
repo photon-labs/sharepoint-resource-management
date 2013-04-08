@@ -17,7 +17,7 @@
     limitations under the License.
 
 -->
-﻿<graph PYAxisName='Amount' SYAxisName='Quantity' shownames='1' showvalues='0' showLegend='1' rotateNames='0' formatNumberScale='1' decimalPrecision='2' limitsDecimalPrecision='0' divLineDecimalPrecision='1' formatNumber='1' chartTopMargin='15'>
+<graph PYAxisName='Amount' SYAxisName='Quantity' shownames='1' showvalues='0' showLegend='1' rotateNames='0' formatNumberScale='1' decimalPrecision='2' limitsDecimalPrecision='0' divLineDecimalPrecision='1' formatNumber='1' chartTopMargin='15'>
   <categories>
     <category name='Ernst...' hoverText='Ernst Handel'/>
     <category name='QUICK...' hoverText='QUICK-Stop'/>

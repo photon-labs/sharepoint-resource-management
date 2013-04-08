@@ -17,7 +17,7 @@
     limitations under the License.
 
 -->
-﻿<graph caption='3 Months - As on 04/02/04' yAxisMinValue='24' yAxisMaxValue='29' canvasBorderColor='DAE1E8' canvasBgColor='FFFFFF' bgColor='EEF2FB' numDivLines='9' divLineColor='DAE1E8' decimalPrecision='2' numberPrefix='$' showNames='1' bearBorderColor='E33C3C' bearFillColor='E33C3C' bullBorderColor='1F3165' baseFontColor='444C60' outCnvBaseFontColor='444C60' hoverCapBorderColor='DAE1E8' hoverCapBgColor='FFFFFF' rotateNames='0'>
+<graph caption='3 Months - As on 04/02/04' yAxisMinValue='24' yAxisMaxValue='29' canvasBorderColor='DAE1E8' canvasBgColor='FFFFFF' bgColor='EEF2FB' numDivLines='9' divLineColor='DAE1E8' decimalPrecision='2' numberPrefix='$' showNames='1' bearBorderColor='E33C3C' bearFillColor='E33C3C' bullBorderColor='1F3165' baseFontColor='444C60' outCnvBaseFontColor='444C60' hoverCapBorderColor='DAE1E8' hoverCapBgColor='FFFFFF' rotateNames='0'>
 
   <categories font='' fontSize='10' fontColor='' verticalLineColor='' verticalLineThickness='1' verticalLineAlpha='100'>
     <category Name='2004' xIndex='1' showLine='1'/>

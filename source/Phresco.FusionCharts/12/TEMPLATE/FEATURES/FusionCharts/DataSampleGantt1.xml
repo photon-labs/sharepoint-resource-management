@@ -17,7 +17,7 @@
     limitations under the License.
 
 -->
-﻿<chart dateFormat='dd/mm/yyyy' showTaskNames='1' ganttWidthPercent='70' gridBorderAlpha='100' canvasBorderColor='333333' canvasBorderThickness='0' hoverCapBgColor='FFFFFF' hoverCapBorderColor='333333' extendcategoryBg='0' ganttLineColor='99cc00' ganttLineAlpha='20' baseFontColor='333333' gridBorderColor='99cc00'>
+<chart dateFormat='dd/mm/yyyy' showTaskNames='1' ganttWidthPercent='70' gridBorderAlpha='100' canvasBorderColor='333333' canvasBorderThickness='0' hoverCapBgColor='FFFFFF' hoverCapBorderColor='333333' extendcategoryBg='0' ganttLineColor='99cc00' ganttLineAlpha='20' baseFontColor='333333' gridBorderColor='99cc00'>
 
   <categories bgColor='333333' fontColor='99cc00' isBold='1' fontSize='14' >
     <category start='1/9/2004' end='31/12/2004' name='2004' />

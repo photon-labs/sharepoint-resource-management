@@ -17,7 +17,7 @@
     limitations under the License.
 
 -->
-﻿<graph caption='Site hits per hour' subCaption='In Thousands' numdivlines='9' showgridbg='1' lineThickness='1' animation='1' showNames='1' showValues='0' numVDivLines='22' yaxisminvalue='0' formatNumberScale='1' rotateNames='1' areaAlpha='90' showLimits='1' decimalPrecision='1' showAlternateHGridColor='1' divLineDecimalPrecision='0' limitsDecimalPrecision='0' showAreaBorder='1'>
+<graph caption='Site hits per hour' subCaption='In Thousands' numdivlines='9' showgridbg='1' lineThickness='1' animation='1' showNames='1' showValues='0' numVDivLines='22' yaxisminvalue='0' formatNumberScale='1' rotateNames='1' areaAlpha='90' showLimits='1' decimalPrecision='1' showAlternateHGridColor='1' divLineDecimalPrecision='0' limitsDecimalPrecision='0' showAreaBorder='1'>
   <categories >
     <category name='00:00' />
     <category name='01:00' />

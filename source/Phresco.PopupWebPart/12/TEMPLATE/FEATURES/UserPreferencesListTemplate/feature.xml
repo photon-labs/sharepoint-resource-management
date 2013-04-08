@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 
     PHR_SharePointResourceManagement
@@ -17,8 +18,6 @@
     limitations under the License.
 
 -->
-﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Feature  Id="70bd0f3e-0484-4f9b-a3b3-6802c50bcf63"
           Title="Phresco User Preferences ListTemplate"
           Description="A List based on this List Template is used in conjunction with the User Popup Web Part, to store user preferences associated to the operation of the web part."

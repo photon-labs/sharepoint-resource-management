@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--
 
     PHR_SharePointResourceManagement
@@ -17,9 +18,6 @@
     limitations under the License.
 
 -->
-﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-
-
 <!--This file represents the results of running a test suite-->
 <test-results name="E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\bin\Release\AllTest.dll" total="5" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-01-25" time="13:11:24">
   <environment nunit-version="2.5.9.10348" clr-version="2.0.50727.3082" os-version="Microsoft Windows NT 5.2.3790 Service Pack 2" platform="Win32NT" cwd="E:\27001\phresco-framework\workspace\projects\PHR_sp\test\unit\AllTest\bin\Release" machine-name="FRAMEWORK-WIN2" user="Photon" user-domain="FRAMEWORK-WIN2" />

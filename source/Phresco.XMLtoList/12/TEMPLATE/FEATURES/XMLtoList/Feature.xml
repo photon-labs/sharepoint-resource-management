@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <!--
 
     PHR_SharePointResourceManagement
@@ -17,9 +18,6 @@
     limitations under the License.
 
 -->
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
-
 <Feature xmlns="http://schemas.microsoft.com/sharepoint/"
          Id="64D0A38F-9698-43e5-A785-F832542229A5"
          Title="Phresco XML to List"

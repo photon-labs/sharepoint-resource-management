@@ -15,5 +15,5 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-﻿public partial class NewDataSet {
+public partial class NewDataSet {
 }
