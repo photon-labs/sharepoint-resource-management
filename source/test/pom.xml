@@ -22,7 +22,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Photon</groupId>
   <artifactId>Phresco</artifactId>
-  <version>3.0.0.14001-SNAPSHOT</version>
+  <version>3.0.0.14002-SNAPSHOT</version>
     <pluginRepositories>
 		<pluginRepository>
 			<id>sharepoint-maven-plugin</id>
