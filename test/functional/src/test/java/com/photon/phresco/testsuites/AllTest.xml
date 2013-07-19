@@ -21,6 +21,5 @@
 <suite name="AllTest"  thread-count="10">
    <suite-files>
    <suite-file path="./SharepointAllTest.xml" /> 
- <!--   <suite-file path="./WelcomePageTestSuite.xml" />
-   --> </suite-files>
+     </suite-files>
 </suite>

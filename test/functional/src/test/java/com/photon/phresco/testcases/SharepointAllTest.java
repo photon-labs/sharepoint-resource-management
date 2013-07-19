@@ -191,65 +191,6 @@ public class SharepointAllTest {
 
 		}
 	}
-	
-	/*@Test
-	public void testToVerifyTheMoviesAndMusicAddToCart()
-			throws InterruptedException, IOException, Exception {
-		try {
-
-			System.out
-					.println("---------testToVerifyTheMoviesAndMusicAddToCart()-------------");
-			welcomeScreen.MoviesnMusic(methodName);
-			welcomeScreen.billingInfo(methodName);
-		} catch (Exception t) {
-			t.printStackTrace();
-
-		}
-	}
-
-
-	@Test
-	public void testToVerifyTheMobilePhonesAddToCart()
-			throws InterruptedException, IOException, Exception {
-		try {
-
-			System.out
-					.println("---------testToVerifyTheMobilePhonesAddToCart()-------------");
-			welcomeScreen.MobilePhones(methodName);
-			welcomeScreen.billingInfo(methodName);
-		} catch (Exception t) {
-			t.printStackTrace();
-
-		}
-	}
-
-	@Test
-	public void testToVerifyTheAccessoriesAddToCart()
-			throws InterruptedException, IOException, Exception {
-		try {
-			System.out
-					.println("---------testToVerifyTheAccessoriesAddToCart()-------------");
-			welcomeScreen.Accessories(methodName);
-			welcomeScreen.billingInfo(methodName);
-		} catch (Exception t) {
-			t.printStackTrace();
-
-		}
-	}
-
-	@Test
-	public void testToVerifyTheComputersAddToCart()
-			throws InterruptedException, IOException, Exception {
-		try {
-			System.out
-					.println("---------testToVerifyTheComputersAddToCart()-------------");
-			welcomeScreen.Computers(methodName);
-			welcomeScreen.billingInfo(methodName);
-		} catch (Exception t) {
-			t.printStackTrace();
-
-		}
-	}*/
 
 	@AfterTest
 	public static void tearDown() {

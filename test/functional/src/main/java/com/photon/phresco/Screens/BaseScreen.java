@@ -38,6 +38,7 @@ import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.google.common.base.Function;
@@ -227,16 +228,26 @@ public class BaseScreen {
 		}
 
 		catch (Exception e) {
-			File scrFile = ((TakesScreenshot) driver)
-					.getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(scrFile,
-					new File(GetCurrentDir.getCurrentDirectory() + "\\"
-							+ methodName + ".png"));
-			throw new RuntimeException("waitForElementPresent"
-					+ super.getClass().getSimpleName() + " failed", e);
-
+			captureScreenShot(methodName);
+			
 		}
 	}
+	
+
+	 public void captureScreenShot(String methodName) {
+	            log.info("ENTERING IN CAPTURE SCREENSHOT ");
+	            WebDriver augmentedDriver = new Augmenter().augment(driver);
+	            File screenshot = ((TakesScreenshot) augmentedDriver)
+	                            .getScreenshotAs(OutputType.FILE);
+	            try {
+
+	                    FileUtils.copyFile(screenshot,
+	                                    new File(GetCurrentDir.getCurrentDirectory()
+	                                                    + File.separator + methodName + ".png"));
+	            } catch (Exception e1) {
+	                    log.info("EXCEPTION IN CAPTURE SCREENSHOT " + e1.getMessage());
+	            }
+	    }
 
 	Function<WebDriver, WebElement> presenceOfElementLocated(final By locator) {
 		log.info("Entering:------presenceOfElementLocated()-----Start");
@@ -425,7 +436,7 @@ public class BaseScreen {
 		getXpathWebElement(this.uiConstants. VMALLOCATION_NEW_OK_ID);
 		element.click();
 		Thread.sleep(2000);
-		isTextPresent("Please Enter a valid IP");
+		isTextPresent("Please Enter a valid IP",methodName);
 		waitForElementPresent(this.uiConstants.CANCEL, methodName);
 		getXpathWebElement(this.uiConstants. CANCEL);
 		element.click();
@@ -717,17 +728,22 @@ public class BaseScreen {
 
 	}
 
-	public void isTextPresent(String textValue) {
-		if (textValue != null) {
-			Boolean textCheck = driver.getPageSource().contains(textValue);
-			Assert.assertTrue("Text present", textCheck);
-		} else {
-
-			throw new RuntimeException("----HelloWorld Text is not existed----");
-
+	public void isTextPresent(String text,String methodName) {
+		if (text!= null){
+			log.info("ENTERING TEXT PRESENT");
+		boolean value=driver.findElement(By.tagName("body")).getText().contains(text);	
+		if(!value){
+			captureScreenShot(methodName);
+		}
+		Assert.assertTrue(value);   
+	    
+	    }
+		else
+		{
+			
+			throw new RuntimeException("---- Text not existed----");
 		}
 	}
-
 	public void isElementPresent(String element) throws Exception {
 
 		WebElement testElement = getXpathWebElement(element);

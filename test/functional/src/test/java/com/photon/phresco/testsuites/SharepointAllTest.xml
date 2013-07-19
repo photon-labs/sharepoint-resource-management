@@ -32,8 +32,7 @@
     <include name="HOME_SEARCH_ALL"/>
     <include name="VM_ALLOCATION_LIST"/>
     
-    
-    </methods>
+     </methods>
   </classes>
 </test>     
 </suite>
