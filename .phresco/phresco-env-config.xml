@@ -1,0 +1,17 @@
+<environments>
+    <environment default="true" desc="Production Environment is used for Development purpose only" name="Production">
+        <Server desc="Server Configuration for Sharepoint application" name="Server Configuration">
+            <context>sha_eshop</context>
+            <deploy_dir>C:/</deploy_dir>
+            <admin_username/>
+            <additional_context/>
+            <port>8000</port>
+            <admin_password/>
+            <version>2007</version>
+            <type>Sharepoint Server</type>
+            <remoteDeployment>false</remoteDeployment>
+            <protocol>http</protocol>
+            <host>framework-win2</host>
+        </Server>
+    </environment>
+</environments>
